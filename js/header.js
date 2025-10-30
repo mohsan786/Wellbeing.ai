@@ -9,6 +9,6 @@ const header = `
             <p class="header-text"><a href="ai-insights.html">AI Insights</a></p>
 		</div>
 		
-		<a href="/request-a-demo.html" class="btn-cta header-btn-cta hover-dark">Request A Demo</a>`;
+		<a href="request-a-demo.html" class="btn-cta header-btn-cta hover-dark">Request A Demo</a>`;
 
 document.querySelector('#header').innerHTML = header;
