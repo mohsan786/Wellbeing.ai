@@ -436,7 +436,7 @@ body {
 	gap: 36px;
 	font-weight: 700;
 	text-align: center;
-	background: linear-gradient(180deg, rgba(211, 180, 123, 0.4) 0%, #d3b47b 100%) top left / auto auto no-repeat, url(../assets/index/hero-section1.png) center / cover no-repeat;
+	background: linear-gradient(180deg, rgba(211, 180, 123, 0.4) 0%, #d3b47b 100%) top left / auto auto no-repeat, url(/assets/index/hero-section1.png) center / cover no-repeat;
 	padding: 178px 24px;
 	overflow: hidden;
 	--minContent: 1248;
@@ -1775,7 +1775,7 @@ body {
 	gap: 44px;
 	flex-shrink: 0;
 	text-align: center;
-	background: linear-gradient(2deg, #0c2e4b 2%, rgba(12, 46, 75, 0.7) 95%) top left / auto auto no-repeat, url(../assets/index/hero-section2.png) center / cover no-repeat;
+	background: linear-gradient(2deg, #0c2e4b 2%, rgba(12, 46, 75, 0.7) 95%) top left / auto auto no-repeat, url(/assets/index/hero-section2.png) center / cover no-repeat;
 	padding: 111px 24px;
 	--minContent: 1248;
 	--hSizing: FILL;
