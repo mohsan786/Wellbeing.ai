@@ -1,6 +1,6 @@
 const footer =`
 <div class="footer-col-left">
-			<a href="/index.html"><img src="assets/index/footer-sehatti-posts.png" class="footer-sehatti-posts" /></a>
+			<a href="./index.html"><img src="assets/index/footer-sehatti-posts.png" class="footer-sehatti-posts" /></a>
 			<p class="text-b footer-text-the-gcc-s-first">
 				The GCC's first AI-powered wellbeing and mental health ecosystem
 			</p>
