@@ -1,0 +1,4197 @@
+body {
+	container: body / inline-size;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Poppins';
+	background-color: #fff;
+	overflow: auto;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.btn-cta {
+	width: 100%;
+	max-width: 315px;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 1.25;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #6b5a3d;
+	padding: 16px 24px;
+	border-radius: 70px;
+	--minContent: 183;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.text-a {
+	align-self: stretch;
+	--minContent: 213;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-line {
+	position: absolute;
+	width: 0; height: 13%;
+	border-left: 2px solid #fff;
+	border-radius: 2px;
+	--minContent: 2;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+.btn-a {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 2.769;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #d3b47b;
+	padding: 0 8px;
+	border-radius: 40px;
+	--minContent: 186;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-b */
+
+.container-b {
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 12px;
+	row-gap: 12px;
+	color: #0c2e4b;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-right: 90px;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.container-btn {
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #fff;
+	padding: 9px 6px 7px 6px;
+	border: 2px solid #e5e7eb;
+	border-radius: 26843500px;
+	--minContent: 70;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end container-b*/
+
+
+.line {
+	position: absolute;
+	width: 0; height: 27%;
+	border-left: 1px solid #6a7282;
+	border-radius: 1.33px;
+	--minContent: 1;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+
+
+/* container-c */
+
+.container-c {
+	width: 96px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	flex-shrink: 0;
+	--minContent: 96;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-icon1 {
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-text2 {
+	flex-grow: 1;
+	--minContent: 76;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+/* end container-c*/
+
+
+
+
+/* container-d */
+
+.container-d {
+	width: 213px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.333;
+	text-align: center;
+	background-color: rgba(107, 90, 61, 0.06);
+	padding: 0 32px;
+	--minContent: 213;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-container1 {
+	background-color: #6b5a3d;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph1 {
+	opacity: 0.8;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text3 {
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-d*/
+
+
+
+
+/* circle-white */
+
+.circle-white {
+	width: 128px; height: 128px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-shrink: 0;
+	align-self: end;
+	font-size: 14px;
+	line-height: 1.429;
+	text-align: left;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 29px 22px 0 22px;
+	border-radius: 50%;
+	--minContent: 128;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MAX;
+}
+
+.circle-white-icon {
+	width: 64px; height: 64px;
+	flex-shrink: 0;
+	align-self: start;
+	--minContent: 64;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.circle-white-text {
+	margin: 0 7px;
+	--minContent: 85;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end circle-white*/
+
+
+.btn-text-a {
+	display: flex;
+	justify-content: center;
+	align-self: start;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.333;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 4px 12px 5px 12px;
+	border-radius: 26843500px;
+	--minContent: 113;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* list-item-a */
+
+.list-item-a {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	--minContent: 232;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-icon1 {
+	margin-top: 2px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-text1 {
+	flex-shrink: 0;
+	--minContent: 208;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end list-item-a*/
+
+
+
+
+/* list-item-b */
+
+.list-item-b {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-icon2 {
+	margin-top: 2px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-text2 {
+	flex-grow: 1;
+	--minContent: 221;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end list-item-b*/
+
+
+
+
+/* btn-b */
+
+.btn-b {
+	margin-top: 13px;
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.429;
+	letter-spacing: 0px;
+	text-align: left;
+	padding: 8px 10px;
+	border-radius: 38px;
+	--minContent: 207;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn-icon1 {
+	margin-top: 2px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-label1 {
+	--minContent: 155;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end btn-b*/
+
+
+.subtitle {
+	color: #6b5a3d;
+	--min-font-size: 25; --max-font-size: 44; font-size: var(--interpolate);
+	text-transform: capitalize;
+	line-height: normal;
+	letter-spacing: -1px;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.text-b {
+	color: #0c2e4b;
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	line-height: 2;
+	letter-spacing: 0px;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn-text-b {
+	display: flex;
+	justify-content: center;
+	flex-shrink: 0;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: rgba(107, 90, 61, 0.1);
+	padding: 8px 16px;
+	border-radius: 26843500px;
+	--minContent: 208;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-e */
+
+.container-e {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	flex-grow: 1;
+	--minContent: 669;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-heading1 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	--minContent: 669;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-container2 {
+	container: container-container2 / inline-size;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	align-self: start;
+	color: #364153;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	--minContent: 482;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-row-top {
+	margin-left: 2px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	--minContent: 312;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.container-container3 {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	--minContent: 116;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-icon2 {
+	position: relative;
+	width: 17px; height: 18px;
+	flex-shrink: 0;
+	--minContent: 17;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-group {
+	position: absolute; top: 2px; left: 0; 
+	width: 17px; height: 17px;
+	border-radius: 2px;
+	--minContent: 17;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+}
+
+.container-text-paragraph2 {
+	--minContent: 86;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-row-bottom {
+	display: flex;
+	align-items: flex-start;
+	align-self: start;
+	--minContent: 482;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+}
+
+.container-container4 {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	--minContent: 669;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph3 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	--minContent: 669;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: #4a5565;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	--minContent: 224;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-btn7 {
+	margin-top: 9px;
+	width: 124px;
+	display: flex;
+	justify-content: center;
+	align-self: start;
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.429;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 8px 16px;
+	border-radius: 24px;
+	--minContent: 124;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end container-e*/
+
+
+.container-line {
+	position: absolute;
+	width: 0; height: 27%;
+	border-radius: 1.67px;
+	--minContent: 2;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+
+
+/* container-f */
+
+.container-f {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	--minContent: 194;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-icon3 {
+	width: 20px; height: 20px;
+	flex-shrink: 0;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-text4 {
+	--minContent: 162;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+/* end container-f*/
+
+
+
+
+/* list-item-c */
+
+.list-item-c {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	--minContent: 190;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-circle {
+	margin-top: 6px;
+	flex-shrink: 0;
+	--minContent: 6;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.list-item-text3 {
+	--minContent: 176;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end list-item-c*/
+
+
+
+
+/* group-a */
+
+.group-a {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 68px 12px;
+	--minContent: 79;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+/* end group-a*/
+
+
+
+
+/* circle-container */
+
+.circle-container {
+	box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1),0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	width: 56px; height: 56px;
+	background-color: #fff;
+	padding: 14px 12px 14px 16px;
+	border-radius: 50%;
+	--minContent: 56;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.circle-container-icon {
+	margin-left: auto;
+	width: 28px; height: 28px;
+	--minContent: 28;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+/* end circle-container*/
+
+
+
+
+/* btn-c */
+
+.btn-c {
+	position: absolute; top: 156px; 
+	display: flex;
+	justify-content: center;
+	gap: 4px;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 4px 7px 4px 8px;
+	border-radius: 4px;
+	--minContent: 57;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-icon2 {
+	margin-top: 2px;
+	width: 12px; height: 12px;
+	flex-shrink: 0;
+	--minContent: 12;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-label2 {
+	--minContent: 25;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end btn-c*/
+
+
+.icon {
+	width: 12px; height: 12px;
+	flex-shrink: 0;
+	--minContent: 12;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+
+
+/* container-g */
+
+.container-g {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 0 16px;
+	--minContent: 394;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text5 {
+	align-self: stretch;
+	color: #6b5a3d;
+	--minContent: 362;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-heading2 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 302;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-container5 {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	color: #6a7282;
+	--minContent: 77;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-text6 {
+	--minContent: 61;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+/* end container-g*/
+
+
+
+
+/* container-h */
+
+.container-h {
+	margin-right: -1px;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	--minContent: 79;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-h*/
+
+
+.text-c {
+	--minContent: 321;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.header {
+	container: header / inline-size;
+	height: 84px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	color: #0c2e4b;
+	font-size: 16px;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #fafafa;
+	padding: 10px 120px 9px 120px;
+	border-bottom: 1px solid rgba(13, 46, 73, 0.2);
+	--minContent: 1114;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.header-sehatti-posts {
+	width: 81px;
+	flex-shrink: 0;
+	--minContent: 81;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	flex-grow: 1;
+	align-self: stretch;
+	font-weight: 500;
+	line-height: normal;
+	padding: 20px 23px;
+	--minContent: 610;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.header-text {
+	text-transform: capitalize;
+	--minContent: 73;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-text-resources {
+	color: #d3b47b;
+	font-weight: 700;
+	text-transform: capitalize;
+	--minContent: 86;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-btn-cta {
+	width: unset;
+	max-width: unset;
+	justify-content: unset;
+	color: unset;
+	font-size: unset;
+	text-align: left;
+	background-color: #d3b47b;
+	padding-left: 24px;
+	padding-right: 25px;
+}
+
+.hero-section {
+	container: hero-section / inline-size;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 44px;
+	color: #fff;
+	text-align: center;
+	background: linear-gradient(180deg, rgba(12, 46, 75, 0.4) 0%, #0c2e4b 100%) top left / auto auto no-repeat, url(/assets/resource/hero-section.png) center / cover no-repeat;
+	padding: 155px 24px 156px 24px;
+	overflow: hidden;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-col-top {
+	height: 216px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 28px;
+	flex-shrink: 0;
+	align-self: stretch;
+	--minContent: 1200;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-title {
+	--min-font-size: 29; --max-font-size: 53; font-size: var(--interpolate);
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.472;
+	letter-spacing: 3px;
+	--minContent: 1200;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-text {
+	--min-font-size: 16; --max-font-size: 20; font-size: var(--interpolate);
+	font-weight: 700;
+	line-height: 1.6;
+	letter-spacing: 0px;
+	--minContent: 1200;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-container {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	letter-spacing: 0px;
+	--minContent: 1240;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* card */
+
+.card {
+	height: 129px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 24px 8px 23px 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 14px;
+	--minContent: 231;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container {
+	padding: 12px;
+	border-radius: 10px;
+	--minContent: 48;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-icon {
+	margin: 0 auto;
+	width: 24px; height: 24px;
+	--minContent: 24;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+/* end card*/
+
+
+.card5 {
+	width: 231px; height: unset;
+	justify-content: flex-start;
+}
+
+.card5 .card-container {
+	background-color: #14b8a6;
+}
+
+.card6 {
+	margin-left: 1px;
+	width: 232px;
+}
+
+.card6 .card-container {
+	background-color: #d2b377;
+}
+
+.card7 {
+	width: 232px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 24px 8px 23px 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 14px;
+	--minContent: 232;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container2 {
+	position: relative;
+	width: 48px; height: 48px;
+	flex-shrink: 0;
+	background-color: #0c2e4b;
+	border-radius: 10px;
+	--minContent: 48;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-line1 {
+	top: 27%; left: 40%; 
+}
+
+.card-line2 {
+	top: 27%; right: 44%; 
+}
+
+.card-group {
+	position: absolute; top: 15px; left: 14px; 
+	width: 20px; height: 20px;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+}
+
+.card-line3 {
+	top: 25%; left: -12%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 2px solid #fff;
+}
+
+.card8 {
+	width: 232px;
+}
+
+.card8 .card-container {
+	background-color: #14b8a6;
+}
+
+.card9 {
+	margin-left: 1px;
+	width: 231px;
+}
+
+.card9 .card-container {
+	margin-left: 1px;
+	background-color: #d2b377;
+}
+
+.our-work1 {
+	height: 1634px;
+	justify-content: center;
+	gap: 62px;
+	flex-shrink: 0;
+	letter-spacing: 0px;
+	background-color: #f9fafb;
+	padding-top: 91px;
+	padding-bottom: 91px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-col-top1 {
+	width: 100%; height: 255px;
+	max-width: 1392px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 19px;
+	flex-shrink: 0;
+	font-weight: 500;
+	text-align: center;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn1 {
+	width: 186px;
+}
+
+.our-work-subtitle1 {
+	align-self: stretch;
+	text-transform: capitalize;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-text1 {
+	align-self: stretch;
+	color: #0c2e4b;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container1 {
+	width: 100%;
+	max-width: 1104px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+	gap: 12px;
+	row-gap: 12px;
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	--minContent: 1104;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-a */
+
+.container-a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-shrink: 0;
+	padding-top: 1px;
+	--minContent: 372;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-circle {
+	margin-top: -1px;
+	flex-shrink: 0;
+	background-color: #14b8a6;
+	--minContent: 6;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.container-text1 {
+	margin-top: 1px; margin-bottom: -1px;
+	flex-grow: 1;
+	--minContent: 358;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+/* end container-a*/
+
+
+.container6 {
+	max-width: 372px;
+}
+
+.container7 {
+	max-width: 338px;
+}
+
+.container8 {
+	width: 233px;
+}
+
+.container9 {
+	max-width: 402px;
+}
+
+.container10 {
+	font-weight: 400;
+}
+
+.container10 .container-btn1 {
+	width: 70px;
+	color: #fff;
+	background-color: #6b5a3d;
+	border: 2px solid #6b5a3d;
+}
+
+.container10 .container-btn2 {
+	width: 212px;
+}
+
+.container10 .container-btn3 {
+	width: 168px;
+}
+
+.container10 .container-btn4 {
+	width: 237px;
+}
+
+.container10 .container-btn5 {
+	width: 241px;
+}
+
+.container10 .container-btn6 {
+	width: 162px;
+}
+
+.our-work-container2 {
+	container: our-work-container2 / inline-size;
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	font-weight: 400;
+	text-align: left;
+	--minContent: 1110;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* row */
+
+.row {
+	display: flex;
+	align-items: flex-start;
+	gap: 36px;
+	--minContent: 1110;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+
+
+/* card-article-a */
+
+.card-article-a {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	flex-grow: 1;
+	background-color: #fff;
+	padding-bottom: 47px;
+	border: 1px solid #e5e7eb;
+	border-radius: 16px;
+	--minContent: 330;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container5 {
+	position: relative;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 135;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-btn3 {
+	position: absolute; top: 16px; left: 16px; 
+	justify-content: center;
+	letter-spacing: 0px;
+	--minContent: 134;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container6 {
+	align-items: flex-start;
+	gap: 12px;
+	--minContent: 328;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container7 {
+	margin-left: 1px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	color: #6a7282;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 211;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container8 {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	flex-shrink: 0;
+	--minContent: 99;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-icon3 {
+	position: relative;
+	width: 13px; height: 15px;
+	flex-shrink: 0;
+	overflow: hidden;
+	--minContent: 13;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-group2 {
+	position: absolute; top: 1px; left: 0; 
+	--minContent: 13;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+}
+
+.card-article-text3 {
+	flex-grow: 1;
+	--minContent: 80;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-text-heading2 {
+	margin-top: 1px;
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 265;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-text-paragraph2 {
+	color: #4a5565;
+	font-size: 14px;
+	line-height: 1.625;
+	--minContent: 280;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-btn4 {
+	margin-top: 3px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #d3b47b;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-top: 1px;
+	--minContent: 110;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-text4 {
+	margin-top: 1px; margin-bottom: -1px;
+	--minContent: 86;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-icon4 {
+	margin-top: -1px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+/* end card-article-a*/
+
+
+.card-article1 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	flex-grow: 1;
+	background-color: #fff;
+	padding-bottom: 24px;
+	border: 1px solid #e5e7eb;
+	border-radius: 16px;
+	--minContent: 320;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container1 {
+	position: relative;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 173;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-btn1 {
+	position: absolute; top: 16px; left: 16px; 
+	justify-content: center;
+	letter-spacing: 0px;
+	--minContent: 173;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container2 {
+	align-items: flex-start;
+	gap: 12px;
+	--minContent: 318;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container3 {
+	margin-left: 1px;
+	display: flex;
+	align-items: center;
+	color: #6a7282;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 216;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-container4 {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	--minContent: 104;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-icon1 {
+	position: relative;
+	width: 13px; height: 15px;
+	flex-shrink: 0;
+	overflow: hidden;
+	--minContent: 13;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-group1 {
+	position: absolute; top: 1px; left: 0; 
+	--minContent: 13;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+}
+
+.card-article-text1 {
+	--minContent: 85;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-text-heading1 {
+	margin-top: 1px;
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 270;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-text-paragraph1 {
+	color: #4a5565;
+	font-size: 14px;
+	line-height: 1.625;
+	--minContent: 269;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-btn2 {
+	margin-top: 3px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #d3b47b;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-top: 1px;
+	--minContent: 110;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-article-text2 {
+	margin-top: 1px; margin-bottom: -1px;
+	--minContent: 86;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-article-icon2 {
+	margin-top: -1px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+/* end row*/
+
+
+.row-top .card-article-container1 {
+	background-image: url(/assets/resource/container/card-article-container.png);
+}
+
+.row-top .card-article-container3 {
+	gap: 15px;
+}
+
+.row-top .card-article-line1 {
+	top: 0; left: 25%; 
+}
+
+.row-top .card-article-line2 {
+	top: 0; right: 35%; 
+}
+
+.row-top .card-article-line3 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-top .card-article-text-heading1 {
+	width: 270px;
+}
+
+.row-top .card-article-text-paragraph1 {
+	width: 269px;
+}
+
+.row-top .card-article2 {
+	padding-bottom: 24px;
+}
+
+.row-top .card-article2 .card-article-container5 {
+	margin-right: 1px;
+	background-image: url(/assets/resource/container/card-article-container2.png);
+}
+
+.row-top .card-article2 .card-article-btn3 {
+	width: 99px;
+}
+
+.row-top .card-article2 .card-article-container8 {
+	width: 99px;
+}
+
+.row-top .card-article2 .card-article-line4 {
+	top: 0; left: 25%; 
+}
+
+.row-top .card-article2 .card-article-line5 {
+	top: 0; right: 35%; 
+}
+
+.row-top .card-article2 .card-article-line6 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-top .card-article2 .container2 {
+	width: 95px;
+}
+
+.row-top .card-article2 .card-article-text-heading2 {
+	width: 265px;
+}
+
+.row-top .card-article2 .card-article-text-paragraph2 {
+	width: 100%;
+	max-width: 280px;
+}
+
+.row-top .card-article3 .card-article-container5 {
+	background-image: url(/assets/resource/container/card-article-container3.png);
+}
+
+.row-top .card-article3 .card-article-btn3 {
+	width: 98px;
+}
+
+.row-top .card-article3 .card-article-container6 {
+	align-items: unset;
+	padding-right: 22px;
+}
+
+.row-top .card-article3 .card-article-container7 {
+	align-self: start;
+}
+
+.row-top .card-article3 .card-article-container8 {
+	width: 98px;
+}
+
+.row-top .card-article3 .card-article-line4 {
+	top: 0; left: 25%; 
+}
+
+.row-top .card-article3 .card-article-line5 {
+	top: 0; right: 35%; 
+}
+
+.row-top .card-article3 .card-article-line6 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-top .card-article3 .card-article-text-heading2 {
+	margin-right: 24px;
+}
+
+.row-top .card-article3 .card-article-btn4 {
+	margin-top: 2px;
+	align-self: start;
+}
+
+.row-bottom .card-article-container1 {
+	background-image: url(/assets/resource/container/card-article-container4.png);
+}
+
+.row-bottom .card-article-container3 {
+	gap: 16px;
+}
+
+.row-bottom .card-article-line1 {
+	top: 0; left: 25%; 
+}
+
+.row-bottom .card-article-line2 {
+	top: 0; right: 35%; 
+}
+
+.row-bottom .card-article-line3 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-bottom .card-article-text-heading1 {
+	width: 272px;
+}
+
+.row-bottom .card-article-text-paragraph1 {
+	width: 254px;
+}
+
+.row-bottom .card-article2 .card-article-container5 {
+	margin-right: 1px;
+	background-image: url(/assets/resource/container/card-article-container5.png);
+}
+
+.row-bottom .card-article2 .card-article-btn3 {
+	width: 106px;
+}
+
+.row-bottom .card-article2 .card-article-container8 {
+	width: 106px;
+}
+
+.row-bottom .card-article2 .card-article-line4 {
+	top: 0; left: 25%; 
+}
+
+.row-bottom .card-article2 .card-article-line5 {
+	top: 0; right: 35%; 
+}
+
+.row-bottom .card-article2 .card-article-line6 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-bottom .card-article2 .container2 {
+	width: 100px;
+}
+
+.row-bottom .card-article2 .card-article-text-heading2 {
+	width: 271px;
+}
+
+.row-bottom .card-article2 .card-article-text-paragraph2 {
+	width: 260px;
+}
+
+.row-bottom .card-article3 .card-article-container5 {
+	background-image: url(/assets/resource/container/card-article-container.png);
+}
+
+.row-bottom .card-article3 .card-article-btn3 {
+	width: 106px;
+}
+
+.row-bottom .card-article3 .card-article-container8 {
+	width: 106px;
+}
+
+.row-bottom .card-article3 .card-article-line4 {
+	top: 0; left: 25%; 
+}
+
+.row-bottom .card-article3 .card-article-line5 {
+	top: 0; right: 35%; 
+}
+
+.row-bottom .card-article3 .card-article-line6 {
+	top: 25%; left: -13%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 1px solid #6a7282;
+}
+
+.row-bottom .card-article3 .card-article-text-heading2 {
+	width: 273px;
+}
+
+.row-bottom .card-article3 .card-article-text-paragraph2 {
+	width: 100%;
+	max-width: 291px;
+}
+
+.our-commitments1 {
+	height: 1417px;
+	justify-content: center;
+	gap: 62px;
+	flex-shrink: 0;
+	background-color: #0c2e4b;
+	padding-top: 97px;
+	padding-bottom: 97px;
+	--minContent: 1091;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-col-top1 {
+	height: 156px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 9px;
+	flex-shrink: 0;
+	font-weight: 500;
+	--minContent: 834;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-btn-whitepapers {
+	width: 236px;
+	color: #0c2e4b;
+}
+
+.our-commitments-subtitle1 {
+	color: #d3b47b;
+	text-transform: capitalize;
+	text-align: left;
+	--minContent: 834;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-text-bottom1 {
+	color: #fff;
+	text-align: center;
+	--minContent: 834;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container1 {
+	container: our-commitments-container1 / inline-size;
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	--minContent: 1043;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-row-top {
+	container: our-commitments-row-top / inline-size;
+	display: flex;
+	align-items: flex-start;
+	gap: 36px;
+	--minContent: 1043;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.card10 {
+	height: 498px;
+	gap: 32px;
+	flex-grow: 1;
+	--minContent: 504;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container11 {
+	padding-top: 148px;
+	padding-bottom: 148px;
+}
+
+.container11 .container-container1 {
+	gap: 6px;
+	padding-bottom: 23px;
+}
+
+.container11 .container-text-paragraph1 {
+	margin-top: 4px;
+}
+
+.container11 .container-text3 {
+	opacity: 0.6;
+}
+
+.card-container3 {
+	margin-top: 33px;
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	flex-shrink: 0;
+	text-align: left;
+	--minContent: 255;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn-text1 {
+	width: 113px;
+	align-self: start;
+	color: #6b5a3d;
+	background-color: rgba(107, 90, 61, 0.12);
+}
+
+.card-text-heading1 {
+	width: 223px;
+	align-self: start;
+	--minContent: 223;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph1 {
+	margin-top: 1px;
+	width: 228px;
+	align-self: start;
+	--minContent: 228;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-list1 {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: #364153;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item4 .list-item-text1 {
+	width: 208px;
+}
+
+.list-item5 {
+	padding-right: 10px;
+}
+
+.list-item6 {
+	padding-right: 16px;
+}
+
+.btn2 {
+	background-color: #6b5a3d;
+}
+
+.card-text-paragraph2 {
+	margin-top: 1px;
+	text-align: center;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card11 {
+	height: 498px;
+	gap: 32px;
+	flex-grow: 1;
+	padding-bottom: 23px;
+	--minContent: 504;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container4 {
+	width: 213px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.333;
+	background-color: rgba(210, 179, 119, 0.06);
+	padding: 137px 32px;
+	--minContent: 213;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container5 {
+	background-color: #d2b377;
+	padding-bottom: 29px;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.circle-white2 {
+	gap: 11px;
+	padding-top: 24px;
+	padding-bottom: 9px;
+}
+
+.card-text-paragraph3 {
+	opacity: 0.8;
+	margin-top: -1px;
+	text-align: center;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-container1 {
+	opacity: 0.6;
+	margin: 11px 43px 0 43px;
+	text-align: right;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container6 {
+	margin-top: 33px;
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	flex-shrink: 0;
+	text-align: left;
+	--minContent: 255;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn-text2 {
+	width: 135px;
+	color: #d2b377;
+	background-color: rgba(210, 179, 119, 0.12);
+}
+
+.card-text-heading2 {
+	width: 225px;
+	align-self: start;
+	--minContent: 225;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph4 {
+	margin-right: 6px; margin-top: 1px;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-list2 {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: #364153;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item7 {
+	padding-right: 9px;
+}
+
+.list-item8 .list-item-text1 {
+	width: 210px;
+}
+
+.list-item9 {
+	padding-right: 3px;
+}
+
+.btn3 {
+	background-color: #d2b377;
+}
+
+.card-text-paragraph5 {
+	margin-top: 1px;
+	text-align: center;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-row-bottom {
+	container: our-commitments-row-bottom / inline-size;
+	display: flex;
+	align-items: flex-start;
+	gap: 36px;
+	--minContent: 1043;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.card12 {
+	height: 475px;
+	gap: 32px;
+	flex-grow: 1;
+	text-align: left;
+	--minContent: 504;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container7 {
+	width: 213px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.333;
+	background-color: rgba(12, 46, 75, 0.06);
+	padding: 137px 32px;
+	--minContent: 213;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container8 {
+	align-items: unset;
+	gap: 8px;
+	background-color: #0c2e4b;
+	padding-bottom: 21px;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.circle-white3 {
+	align-self: end;
+	text-align: unset;
+}
+
+.card-text-paragraph6 {
+	opacity: 0.8;
+	margin-top: 2px;
+	text-align: center;
+	--minContent: 149;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-container2 {
+	opacity: 0.6;
+	margin-left: 51px;
+	width: 80px;
+	align-self: start;
+	--minContent: 130;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container9 {
+	margin-top: 33px;
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	flex-shrink: 0;
+	--minContent: 255;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn-text3 {
+	width: 107px;
+	color: #0c2e4b;
+	background-color: rgba(12, 46, 75, 0.12);
+}
+
+.card-text-heading3 {
+	margin-right: 2px;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph7 {
+	margin-right: 6px; margin-top: 1px;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-list3 {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: #364153;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item10 {
+	padding-right: 15px;
+}
+
+.list-item11 .list-item-text1 {
+	width: 157px;
+}
+
+.list-item12 .list-item-text1 {
+	width: 203px;
+}
+
+.btn4 {
+	background-color: #0c2e4b;
+}
+
+.card-text-paragraph8 {
+	margin-top: 1px;
+	text-align: center;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card13 {
+	height: 475px;
+	gap: 32px;
+	flex-grow: 1;
+	--minContent: 504;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container12 {
+	padding-top: 137px;
+	padding-bottom: 137px;
+}
+
+.container12 .container-container1 {
+	gap: 10px;
+	padding-bottom: 19px;
+}
+
+.container12 .container-text3 {
+	margin-top: 1px;
+}
+
+.card-container10 {
+	margin-top: 33px;
+	width: 255px;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	flex-shrink: 0;
+	text-align: left;
+	--minContent: 255;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn-text4 {
+	width: 120px;
+	color: #6b5a3d;
+	background-color: rgba(107, 90, 61, 0.12);
+}
+
+.card-text-heading4 {
+	width: 236px;
+	align-self: start;
+	--minContent: 236;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph9 {
+	margin-right: 14px; margin-top: 1px;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-list4 {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: #364153;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 229;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.list-item13 .list-item-text1 {
+	width: 205px;
+}
+
+.list-item14 .list-item-text1 {
+	width: 134px;
+}
+
+.list-item15 .list-item-text1 {
+	width: 179px;
+}
+
+.btn5 {
+	background-color: #6b5a3d;
+}
+
+.card-text-paragraph10 {
+	margin-top: 1px;
+	text-align: center;
+	--minContent: 255;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work2 {
+	height: 1375px;
+	justify-content: center;
+	gap: 62px;
+	flex-shrink: 0;
+	background-color: #fff;
+	padding-top: 73px;
+	padding-bottom: 73px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-col-top2 {
+	container: our-work-col-top2 / inline-size;
+	width: 100%; height: 231px;
+	max-width: 1392px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 19px;
+	flex-shrink: 0;
+	font-weight: 500;
+	text-align: center;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn-events-webinars {
+	width: 172px;
+	background-color: #d3b477;
+}
+
+.our-work-subtitle2 {
+	align-self: stretch;
+}
+
+.our-work-text2 {
+	align-self: stretch;
+}
+
+.our-work-container3 {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	color: #6b5a3d;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	--minContent: 962;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn-text1 {
+	width: 208px;
+}
+
+.our-work-btn-text2 {
+	width: 230px;
+}
+
+.our-work-btn-text3 {
+	width: 208px;
+}
+
+.our-work-btn-text4 {
+	width: 279px;
+}
+
+.our-work-col {
+	container: our-work-col / inline-size;
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 40px;
+	letter-spacing: 0px;
+	text-align: left;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-text-bold {
+	margin-left: 1px;
+	width: 100%;
+	max-width: 1238px;
+	color: #d2b377;
+	--min-font-size: 15; --max-font-size: 16; font-size: var(--interpolate);
+	font-weight: 700;
+	line-height: 1.5;
+	--minContent: 1239;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container4 {
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	align-items: flex-start;
+	gap: 57px;
+	background-color: #f9fafb;
+	padding: 1px 41px 1px 1px;
+	border-radius: 20px;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card14 {
+	width: 100%;
+	max-width: 471px;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%) top left / auto auto no-repeat, url(/assets/resource/card.png) center / cover no-repeat;
+	padding: 16px 16px 30px 16px;
+	--minContent: 471;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn1 {
+	width: 102px;
+	flex-shrink: unset;
+	align-self: start;
+	background-color: #d2b377;
+}
+
+.card-text-paragraph11 {
+	margin: 224px 8px 0 8px;
+	--minContent: 439;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph12 {
+	margin: 0 8px;
+	color: rgba(255, 255, 255, 0.8);
+	--minContent: 439;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container13 {
+	margin-top: 33px;
+}
+
+.container13 .container-container2 {
+	max-width: 537px;
+}
+
+.container13 .container-line1 {
+	top: 0; left: 25%; 
+	border-left: 2px solid #d2b377;
+}
+
+.container13 .container-line2 {
+	top: 0; right: 35%; 
+	border-left: 2px solid #d2b377;
+}
+
+.container13 .container-group {
+	border: 2px solid #d2b377;
+}
+
+.container13 .container-line3 {
+	top: 25%; left: -12%; 
+	width: 125%; height: 0;
+	border-top: 2px solid #d2b377;
+}
+
+.container13 .container-row-bottom {
+	gap: 145px;
+}
+
+.container13 .list-item1 .list-item-circle {
+	background-color: #d2b377;
+}
+
+.container13 .list-item2 .list-item-circle {
+	background-color: #d2b377;
+}
+
+.container13 .list-item3 .list-item-circle {
+	background-color: #d2b377;
+}
+
+.container13 .container-btn7 {
+	background-color: #d2b377;
+}
+
+.our-work-container5 {
+	container: our-work-container5 / inline-size;
+	margin-top: 2px;
+	display: flex;
+	flex-direction: column;
+	align-self: stretch;
+	background-color: #f9fafb;
+	padding: 2px 1px 0 1px;
+	border-radius: 20px;
+	overflow: hidden;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container6 {
+	display: flex;
+	align-items: flex-start;
+	gap: 57px;
+	padding-right: 40px;
+	--minContent: 1238;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container7 {
+	width: 100%;
+	max-width: 471px;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	background: url(/assets/resource/our-work-container1.png) center / cover no-repeat;
+	--minContent: 471;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card15 {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%) top left / auto auto no-repeat;
+	padding: 16px 16px 30px 16px;
+	--minContent: 471;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.card-btn2 {
+	width: 114px;
+	flex-shrink: unset;
+	align-self: start;
+	background-color: #6b5a3d;
+}
+
+.card-text-paragraph13 {
+	margin: 224px 8px 0 8px;
+	--minContent: 439;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph14 {
+	margin: 0 8px;
+	color: rgba(255, 255, 255, 0.8);
+	--minContent: 439;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container14 {
+	margin-top: 32px;
+}
+
+.container14 .container-container2 {
+	max-width: 529px;
+}
+
+.container14 .container-line1 {
+	top: 0; left: 25%; 
+	border-left: 2px solid #6b5a3d;
+}
+
+.container14 .container-line2 {
+	top: 0; right: 35%; 
+	border-left: 2px solid #6b5a3d;
+}
+
+.container14 .container-group {
+	border: 2px solid #6b5a3d;
+}
+
+.container14 .container-line3 {
+	top: 25%; left: -12%; 
+	width: 125%; height: 0;
+	border-top: 2px solid #6b5a3d;
+}
+
+.container14 .container-row-bottom {
+	gap: 154px;
+}
+
+.container14 .list-item1 .list-item-circle {
+	background-color: #6b5a3d;
+}
+
+.container14 .list-item2 .list-item-circle {
+	background-color: #6b5a3d;
+}
+
+.container14 .list-item3 .list-item-circle {
+	background-color: #6b5a3d;
+}
+
+.container14 .container-btn7 {
+	background-color: #6b5a3d;
+}
+
+.our-work3 {
+	height: 1733px;
+	justify-content: center;
+	gap: 62px;
+	flex-shrink: 0;
+	font-weight: 400;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #f9fafb;
+	padding-top: 104px;
+	padding-bottom: 105px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-col-top3 {
+	width: 100%; height: 187px;
+	max-width: 1392px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 19px;
+	flex-shrink: 0;
+	font-weight: 500;
+	letter-spacing: -1px;
+	text-align: center;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn-video-hub {
+	width: 142px;
+}
+
+.our-work-subtitle3 {
+	align-self: stretch;
+	text-transform: capitalize;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container15 .container-btn1 {
+	width: 70px;
+	color: #fff;
+	background-color: #6b5a3d;
+	border: 2px solid #6b5a3d;
+}
+
+.container15 .container-btn2 {
+	width: 212px;
+}
+
+.container15 .container-btn3 {
+	width: 168px;
+}
+
+.container15 .container-btn4 {
+	width: 237px;
+}
+
+.container15 .container-btn5 {
+	width: 241px;
+}
+
+.container15 .container-btn6 {
+	width: 162px;
+}
+
+.our-work-container8 {
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	width: 100%; height: 416px;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid #6b5a3d;
+	border-radius: 16px;
+	overflow: hidden;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container9 {
+	container: our-work-container9 / inline-size;
+	position: relative;
+	margin-right: 687px;
+	flex-grow: 1;
+	align-self: stretch;
+	font-size: 14px;
+	line-height: 1.429;
+	background: linear-gradient(rgba(12, 46, 75, 0.4), rgba(12, 46, 75, 0.4)) top left / auto auto no-repeat, url(/assets/resource/our-work-container2.png) center / cover no-repeat;
+	padding: 166px 14px;
+	--minContent: 795;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.our-work-circle {
+	box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.1),0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	width: 80px; height: 80px;
+	background-color: #fff;
+	padding: 20px 18px 20px 22px;
+	border-radius: 50%;
+	--minContent: 80;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-icon {
+	margin-left: auto;
+	width: 40px; height: 40px;
+	--minContent: 40;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn2 {
+	position: absolute; top: 16px; left: 16px; 
+	width: 95px;
+	flex-shrink: unset;
+	color: #fff;
+	background-color: #d2b377;
+}
+
+.btn6 {
+	position: absolute; top: 369px; right: 16px; 
+	display: flex;
+	justify-content: center;
+	gap: 4px;
+	color: #000;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 4px 12px;
+	border-radius: 4px;
+	--minContent: 69;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+
+.btn-icon3 {
+	margin-top: 4px;
+	width: 12px; height: 12px;
+	flex-shrink: 0;
+	--minContent: 12;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.btn-label3 {
+	--minContent: 29;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card16 {
+	container: card16 / inline-size;
+	margin: -412px auto 0 auto;
+	width: 90%;
+	max-width: 686px;
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	flex-grow: 1;
+	background-color: #fff;
+	padding: 111px 32px;
+	--minContent: 1237;
+	--hSizing: FIXED;
+	--vSizing: FILL;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: STRETCH;
+}
+
+.card-text3 {
+	color: #6b5a3d;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 622;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-heading5 {
+	color: #0c2e4b;
+	--min-font-size: 15; --max-font-size: 16; font-size: var(--interpolate);
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 622;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph15 {
+	margin-top: 7px;
+	width: 100%;
+	max-width: 469px;
+	align-self: start;
+	color: #4a5565;
+	--min-font-size: 15; --max-font-size: 16; font-size: var(--interpolate);
+	line-height: 1.625;
+	--minContent: 469;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container11 {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	align-self: start;
+	color: #6a7282;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 156;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container16 {
+	width: 91px;
+}
+
+.container17 {
+	gap: 4px;
+}
+
+.container17 .container-icon3 {
+	width: 16px; height: 16px;
+}
+
+.our-work-container10 {
+	container: our-work-container10 / inline-size;
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	font-size: 12px;
+	line-height: 1.333;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-row-top {
+	display: flex;
+	align-items: flex-start;
+	gap: 27px;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.card17 {
+	gap: 21px;
+	flex-grow: 1;
+	padding-bottom: 16px;
+	--minContent: 395;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container12 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	--minContent: 79;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-img-with {
+	position: absolute; top: 0; left: 0; right: 9px; 
+	width: calc(100% - 0px - 9px);
+	--minContent: 250;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.group3 {
+	z-index: 1;
+	margin-right: -1px;
+}
+
+.group3 .btn1 {
+	left: 312px; 
+	padding-right: 8px;
+}
+
+.card-container13 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 0 16px;
+	--minContent: 393;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text4 {
+	align-self: stretch;
+	color: #6b5a3d;
+	--minContent: 361;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-heading6 {
+	width: 271px;
+	--minContent: 271;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container14 {
+	width: 74px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	color: #6a7282;
+	--minContent: 74;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-text5 {
+	flex-grow: 1;
+	--minContent: 58;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: CENTER;
+}
+
+.card18 {
+	gap: 21px;
+	flex-grow: 1;
+	padding-bottom: 16px;
+	--minContent: 396;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container15 {
+	position: relative;
+	color: #000;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/resource/card-container1.png);
+	--minContent: 80;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn7 {
+	left: 316px; 
+}
+
+.container18 .container-text-heading2 {
+	width: 302px;
+}
+
+.card19 {
+	gap: 21px;
+	flex-grow: 1;
+	padding-bottom: 16px;
+	--minContent: 395;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container19 {
+	background-image: url(/assets/resource/container/container1.png);
+}
+
+.container19 .group2 .btn1 {
+	left: 312px; 
+	padding-right: 8px;
+}
+
+.container20 .container-text-heading2 {
+	width: 304px;
+}
+
+.our-work-row-bottom {
+	display: flex;
+	align-items: flex-start;
+	gap: 27px;
+	align-self: start;
+	--minContent: 818;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+}
+
+.card20 {
+	max-width: 395px;
+	gap: 21px;
+	flex-shrink: 0;
+	padding-bottom: 15px;
+	--minContent: 395;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container21 {
+	background-image: url(/assets/resource/container/container2.png);
+}
+
+.container21 .group2 .btn1 {
+	left: 312px; 
+}
+
+.container22 .container-text-heading2 {
+	width: 258px;
+}
+
+.card21 {
+	max-width: 396px;
+	gap: 21px;
+	flex-shrink: 0;
+	padding-bottom: 39px;
+	--minContent: 396;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container16 {
+	position: relative;
+	color: #000;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/resource/card-container2.png);
+	--minContent: 80;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.btn8 {
+	left: 317px; 
+}
+
+.container23 {
+	align-items: stretch;
+}
+
+.container23 .container-text5 {
+	align-self: unset;
+}
+
+.container23 .container-container5 {
+	align-self: start;
+}
+
+.our-commitments2 {
+	height: 1169px;
+	justify-content: center;
+	gap: 26px;
+	flex-shrink: 0;
+	background-color: rgba(211, 180, 123, 0.3);
+	padding-top: 162px;
+	padding-bottom: 162px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-col-top2 {
+	width: 100%; height: 162px;
+	max-width: 1392px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	flex-shrink: 0;
+	font-weight: 500;
+	text-align: center;
+	--minContent: 974;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-btn-measurable {
+	width: 246px;
+}
+
+.our-commitments-text-bottom2 {
+	align-self: stretch;
+}
+
+.our-commitments-container2 {
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	letter-spacing: 0px;
+	background-color: #fff;
+	padding: 32px 32px 46px 32px;
+	border-radius: 16px;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container3 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	line-height: 1.5;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-text-heading {
+	color: #0c2e4b;
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	font-weight: 700;
+	text-align: center;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-text-fill-in-your {
+	color: #4a5565;
+	--min-font-size: 15; --max-font-size: 16; font-size: var(--interpolate);
+	font-weight: 400;
+	text-align: left;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-form {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	font-size: 14px;
+	text-align: left;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-i */
+
+.container-i {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text7 {
+	color: #0c2e4b;
+	font-weight: 500;
+	line-height: 1;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-input {
+	color: #666;
+	font-weight: 400;
+	line-height: normal;
+	background-color: #f3f3f5;
+	padding: 15px 11px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-i*/
+
+
+.our-commitments-container4 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-text-primitive1 {
+	color: #0c2e4b;
+	font-weight: 500;
+	line-height: 1;
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-primitive1 {
+	display: flex;
+	align-items: center;
+	gap: 315px;
+	color: #666;
+	font-weight: 400;
+	line-height: 1.429;
+	background-color: #f3f3f5;
+	padding: 15px 12px;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 8px;
+	--minContent: 464;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-text-primitive2 {
+	--minContent: 107;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-icon1 {
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-container5 {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	color: #364153;
+	font-weight: 500;
+	line-height: 1.429;
+	padding: 10px 0;
+	--minContent: 690;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-primitive2 {
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	background-color: #f3f3f5;
+	border: 1px solid rgba(12, 46, 75, 0.1);
+	border-radius: 4px;
+	--minContent: 16;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-text-yes {
+	--minContent: 662;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	color: #fff;
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	font-weight: 500;
+	line-height: 1.556;
+	background-color: #6b5a3d;
+	padding: 10px 24px;
+	border-radius: 38px;
+	--minContent: 310;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-icon2 {
+	margin-left: 1px;
+	width: 16px; height: 16px;
+	flex-shrink: 0;
+	--minContent: 17;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-text-download-resource {
+	--minContent: 229;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-text-paragraph {
+	--minContent: 1176;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 177px;
+	letter-spacing: 0px;
+	background-color: #fafafa;
+	padding: 52px 24px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.footer-col-left {
+	width: 100%; height: 288px;
+	max-width: 321px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 32px;
+	flex-shrink: 0;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+	text-align: left;
+	--minContent: 321;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.footer-sehatti-posts {
+	width: 173px;
+	flex-shrink: 0;
+	--minContent: 173;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.footer-text {
+	align-self: stretch;
+}
+
+.footer-social-media {
+	width: 167px; height: 22px;
+	flex-shrink: 0;
+	--minContent: 167;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.footer-col-right {
+	height: 264px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 54px;
+	--minContent: 742;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.footer-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 75px;
+	color: #000;
+	text-align: left;
+	--minContent: 721;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* column */
+
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 18px;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.column-text {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.111;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.column-col {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.25;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end column*/
+
+
+.footer-text-copyright-2025-sehatti {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+	text-align: center;
+	--minContent: 742;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.btn-cta {
+		padding-inline: var(--margin-sm);
+	}
+	.container-b {
+		padding-inline: 0;
+	}
+	.container-g {
+		padding-inline: 0;
+	}
+	.header {
+		padding-inline: var(--margin-md);
+	}
+	.header-nav {
+		padding-inline: 0;
+	}
+	.hero-section {
+		padding-inline: var(--margin-sm);
+	}
+	.row-top .card-article3 .card-article-text-heading2 {
+		margin-inline: 0;
+	}
+	.card-text-container1 {
+		margin-inline: var(--margin-md);
+	}
+	.our-work-container4 {
+		padding-inline: var(--margin-sm);
+	}
+	.card-text-paragraph11 {
+		margin-inline: 0;
+	}
+	.card-text-paragraph12 {
+		margin-inline: 0;
+	}
+	.our-work-container6 {
+		padding-inline: 0;
+	}
+	.card-text-paragraph13 {
+		margin-inline: 0;
+	}
+	.card-text-paragraph14 {
+		margin-inline: 0;
+	}
+	.our-work-container9 {
+		margin-inline: var(--margin-md);
+	}
+	.card16 {
+		padding-inline: var(--margin-sm);
+	}
+	.card-container13 {
+		padding-inline: 0;
+	}
+	.our-commitments-container2 {
+		padding-inline: var(--margin-sm);
+	}
+	.our-commitments-btn {
+		padding-inline: var(--margin-sm);
+	}
+	.footer {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header {
+		padding-inline: var(--margin-sm);
+	}
+	.card-text-container1 {
+		margin-inline: var(--margin-sm);
+	}
+	.our-work-container9 {
+		margin-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container container-container2 (width < 311px) {
+	.container-row-top {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+}
+
+@container container-container2 (width < 480px) {
+	.container-row-bottom {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+}
+
+@container body (width < 1113px) {
+	.header {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+	.header > * {
+		margin-top: unset !important;
+		text-align: center;
+	}
+	.header > .header-nav {
+		width: 100%;
+	}
+}
+
+@container header (width < 609px) {
+	.header-nav {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.header-nav > * {
+		text-align: center;
+	}
+}
+
+@container hero-section (width < 1239px) {
+	.hero-section-container {
+		flex-direction: column;
+		align-items: center;
+		gap: 19px;
+	}
+	.hero-section-container > * {
+		margin-left: unset !important; margin-right: unset !important;
+	}
+}
+
+@container our-work-container2 (width < 1109px) {
+	.row {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 32px;
+	}
+	.row > .card-article1 {
+		width: 100%;
+	}
+	.row > .card-article2 {
+		width: 100%;
+	}
+	.row > .card-article3 {
+		width: 100%;
+	}
+}
+
+@container our-commitments-container1 (width < 1042px) {
+	.our-commitments-row-top {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 81px;
+	}
+	.our-commitments-row-top > .card10 {
+		width: 100%;
+	}
+	.our-commitments-row-top > .card11 {
+		width: 100%;
+	}
+}
+
+@container our-commitments-row-top (width < 502px) {
+	.card10 {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 71px;
+	}
+	.card10 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+}
+
+@container our-commitments-row-top (width < 502px) {
+	.card11 {
+		height: unset;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 65px;
+	}
+	.card11 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+	.card11 > .card-container4 {
+		align-self: center;
+	}
+	.card11 > .card-container6 {
+		align-self: center;
+	}
+}
+
+@container our-commitments-container1 (width < 1042px) {
+	.our-commitments-row-bottom {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 74px;
+	}
+	.our-commitments-row-bottom > .card12 {
+		width: 100%;
+	}
+	.our-commitments-row-bottom > .card13 {
+		width: 100%;
+	}
+}
+
+@container our-commitments-row-bottom (width < 502px) {
+	.card12 {
+		height: unset;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 65px;
+	}
+	.card12 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+	.card12 > .card-container7 {
+		align-self: center;
+	}
+	.card12 > .card-container9 {
+		align-self: center;
+	}
+}
+
+@container our-commitments-row-bottom (width < 502px) {
+	.card13 {
+		height: unset;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 65px;
+	}
+	.card13 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+	.card13 > .container12 {
+		align-self: center;
+	}
+	.card13 > .card-container10 {
+		align-self: center;
+	}
+}
+
+@container our-work-col-top2 (width < 960px) {
+	.our-work-container3 {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.our-work-container3 > * {
+		margin-left: unset !important; margin-right: unset !important;
+		text-align: center;
+	}
+}
+
+@container our-work-col (width < 1239px) {
+	.our-work-container4 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 41px;
+	}
+	.our-work-container4 > * {
+		margin-top: unset !important;
+	}
+	.our-work-container4 > .card14 {
+		align-self: center;
+	}
+}
+
+@container our-work-container5 (width < 1237px) {
+	.our-work-container6 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 41px;
+	}
+	.our-work-container6 > * {
+		margin-top: unset !important;
+	}
+	.our-work-container6 > .our-work-container7 {
+		align-self: center;
+	}
+}
+
+@container our-work-container9 (width < 67px) {
+	.btn6 {
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+	}
+	.btn6 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+}
+
+@container card16 (width < 154px) {
+	.card-container11 {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+}
+
+@container our-work-container10 (width < 1239px) {
+	.our-work-row-top {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 43px;
+	}
+	.our-work-row-top > .card17 {
+		width: 100%;
+	}
+	.our-work-row-top > .card18 {
+		width: 100%;
+	}
+	.our-work-row-top > .card19 {
+		width: 100%;
+	}
+}
+
+@container our-work-container10 (width < 817px) {
+	.our-work-row-bottom {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 43px;
+	}
+	.our-work-row-bottom > .card20 {
+		align-self: center;
+	}
+	.our-work-row-bottom > .card21 {
+		align-self: center;
+	}
+}
+
+@container body (width < 1287px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		gap: 34px;
+	}
+	.footer > * {
+		margin-top: unset !important;
+	}
+}

@@ -1,0 +1,153 @@
+
+:root {
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+* {
+	--min-screen-size: 430;
+	--max-screen-size: 1440;
+	--interpolate-diff: calc(var(--max-font-size) - var(--min-font-size));
+	--interpolate: clamp(calc(var(--min-font-size) * 1px), calc((var(--min-font-size) * 1px) + var(--interpolate-diff) * ((100vw - calc(var(--min-screen-size) * 1px)) / (var(--max-screen-size) - var(--min-screen-size)))), calc(var(--max-font-size) * 1px));
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.text-blue1 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-family: 'Poppins';
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.text-blue2 {
+	color: #4a5565;
+	font-size: 14px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	line-height: 1.625;
+	letter-spacing: 0px;
+}
+
+.subtitle-brown {
+	color: #6b5a3d;
+	--min-font-size: 25; --max-font-size: 44; font-size: var(--interpolate);
+	font-family: 'Poppins';
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -1px;
+}
+
+.text2 {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-gray {
+	color: #6a7282;
+	font-size: 12px;
+	font-family: 'Poppins';
+	font-weight: 400;
+	line-height: 1.333;
+	letter-spacing: 0px;
+}
+
+.text1 {
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	line-height: 2;
+	letter-spacing: 0px;
+}
+
+
+
+/* ui objects utility classes */
+
+.card4 {
+	background-position: top left, center;
+	background-size: auto auto, cover;
+	background-repeat: no-repeat, no-repeat;
+	padding: 68px 12px;
+}
+
+.card-white2 {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid #e5e7eb;
+	border-radius: 14px;
+}
+
+.card3 {
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-white1 {
+	box-shadow: 0px 4px 6px -4px rgba(0, 0, 0, 0.1),0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	background-color: #fff;
+	border: 2px solid #e5e7eb;
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.card2 {
+	width: 13px; height: 13px;
+	border: 1px solid #6a7282;
+	border-radius: 1px;
+}
+
+.circle {
+	width: 6px; height: 6px;
+	border-radius: 50%;
+}
+
+.group1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 24px;
+}
+
+.card1 {
+	height: 192px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.btn-brown {
+	display: flex;
+	background-color: #d3b47b;
+	padding: 4px 16px;
+	border-radius: 26843500px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}

@@ -1,0 +1,75 @@
+
+:root {
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+* {
+	--min-screen-size: 430;
+	--max-screen-size: 1440;
+	--interpolate-diff: calc(var(--max-font-size) - var(--min-font-size));
+	--interpolate: clamp(calc(var(--min-font-size) * 1px), calc((var(--min-font-size) * 1px) + var(--interpolate-diff) * ((100vw - calc(var(--min-screen-size) * 1px)) / (var(--max-screen-size) - var(--min-screen-size)))), calc(var(--max-font-size) * 1px));
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.text-blue {
+	color: #0c2e4b;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 1.111;
+	letter-spacing: 0px;
+}
+
+.sub-text-red {
+	color: #fa0c00;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.bold2 {
+	font-weight: 500;
+}
+
+
+
+/* section utility classes */
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 89px 24px 0 24px;
+}
+
+
+
+/* ui objects utility classes */
+
+.input-white {
+	background-color: #fff;
+	padding: 16px 18px 0 18px;
+	border-radius: 10px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}

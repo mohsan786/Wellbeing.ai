@@ -1,0 +1,2873 @@
+body {
+	container: body / inline-size;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins';
+	background-color: #fff;
+	overflow: auto;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.btn-cta {
+	display: flex;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 1.25;
+	letter-spacing: 0px;
+	padding: 16px 0;
+	border-radius: 70px;
+	--minContent: 183;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.portal {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 13px;
+	font-style: italic;
+	line-height: 2.769;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #d3b47b;
+	padding: 0 8px;
+	border-radius: 40px;
+	--minContent: 113;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-b */
+
+.container-b {
+	padding: 12px;
+	border-radius: 10px;
+	--minContent: 48;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-icon1 {
+	margin: 0 auto;
+	width: 24px; height: 24px;
+	--minContent: 24;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+/* end container-b*/
+
+
+.btn {
+	position: absolute;
+	box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.1),0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1.429;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #d3b47b;
+	padding: 12px 24px;
+	border-radius: 26843500px;
+	--minContent: 112;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.subtitle {
+	color: #6b5a3d;
+	--min-font-size: 25; --max-font-size: 44; font-size: var(--interpolate);
+	text-transform: capitalize;
+	line-height: normal;
+	letter-spacing: -1px;
+	text-align: left;
+	--minContent: 748;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.text-a {
+	color: #0c2e4b;
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	line-height: 2;
+	letter-spacing: 0px;
+	text-align: center;
+	--minContent: 748;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* column-a */
+
+.column-a {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	--minContent: 244;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.column-subtitle1 {
+	color: #d3b47b;
+	font-size: 23px;
+	font-weight: 500;
+	text-transform: capitalize;
+	line-height: normal;
+	--minContent: 244;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.column-text1 {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.625;
+	--minContent: 244;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end column-a*/
+
+
+
+
+/* container-e */
+
+.container-e {
+	background: linear-gradient(180deg, #d2b377 0%, #c29f5f 100%) top left / auto auto no-repeat;
+	padding: 10px;
+	border-radius: 10px;
+	--minContent: 36;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-icon2 {
+	margin: 0 auto;
+	width: 20px; height: 20px;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+/* end container-e*/
+
+
+.card-line {
+	position: absolute;
+	width: 0; height: 12%;
+	border-left: 2px solid #fff;
+	border-radius: 1.67px;
+	--minContent: 2;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+
+
+/* column-b */
+
+.column-b {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	text-align: center;
+	--minContent: 1240;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.column-subtitle2 {
+	--min-font-size: 25; --max-font-size: 44; font-size: var(--interpolate);
+	text-transform: capitalize;
+	line-height: normal;
+	letter-spacing: -1px;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.column-text-bottom {
+	--min-font-size: 16; --max-font-size: 18; font-size: var(--interpolate);
+	line-height: 2;
+	letter-spacing: 0px;
+	--minContent: 1240;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end column-b*/
+
+
+.card-circle-container-b {
+	width: 8px; height: 8px;
+	flex-shrink: 0;
+	background-color: #fff;
+	border-radius: 50%;
+	--minContent: 8;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+
+
+/* container-g */
+
+.container-g {
+	background-color: #d3b47b;
+	padding: 14px;
+	border-radius: 14px;
+	--minContent: 56;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-icon3 {
+	margin: 0 auto;
+	width: 28px; height: 28px;
+	--minContent: 28;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+/* end container-g*/
+
+
+
+
+/* container-h */
+
+.container-h {
+	margin-top: 1px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	flex-grow: 1;
+	--minContent: 570;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-heading3 {
+	font-weight: 700;
+	line-height: 1.5;
+	--minContent: 570;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-instant {
+	font-weight: 400;
+	line-height: 1.625;
+	--minContent: 570;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-h*/
+
+
+.text-define-and-enforce {
+	margin-left: -23px;
+	flex-grow: 1;
+	color: #0c2e4b;
+	font-size: 16px;
+	line-height: 2;
+	--minContent: 274;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.text-b {
+	--minContent: 321;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.header {
+	container: header / inline-size;
+	height: 84px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	align-self: stretch;
+	color: #0c2e4b;
+	font-size: 16px;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #fafafa;
+	padding: 10px 120px 9px 120px;
+	border-bottom: 1px solid rgba(13, 46, 73, 0.2);
+	--minContent: 1114;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.header-sehatti-posts {
+	width: 81px;
+	flex-shrink: 0;
+	--minContent: 81;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	flex-grow: 1;
+	align-self: stretch;
+	font-weight: 500;
+	line-height: normal;
+	padding: 20px 23px;
+	--minContent: 610;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: STRETCH;
+}
+
+.header-text {
+	text-transform: capitalize;
+	--minContent: 73;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-text-ecosystem {
+	color: #d3b47b;
+	font-weight: 700;
+	text-transform: capitalize;
+	--minContent: 90;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.header-btn-cta {
+	text-align: left;
+	background-color: #d3b47b;
+	padding-left: 24px;
+	padding-right: 25px;
+}
+
+.hero-section {
+	margin: 51px auto 0 auto;
+	width: 90%;
+	max-width: 1240px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 2px;
+	--minContent: 1219;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-title1 {
+	height: 496px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 44px;
+	text-align: left;
+	padding: 33px 0;
+	--minContent: 621;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.hero-section-col {
+	width: 100%; height: 334px;
+	max-width: 621px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 28px;
+	flex-shrink: 0;
+	--minContent: 621;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-title2 {
+	color: #d3b47b;
+	font-size: 53px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 1.472;
+	letter-spacing: 3px;
+	--minContent: 621;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-text {
+	margin-right: 13px;
+	--minContent: 621;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-btn-cta {
+	width: 100%;
+	max-width: 315px;
+	justify-content: center;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	background-color: #6b5a3d;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.hero-section-container {
+	position: relative;
+	width: 100%; height: 596px;
+	max-width: 596px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 10.87px;
+	font-weight: 400;
+	line-height: 1.429;
+	letter-spacing: 0px;
+	text-align: center;
+	--minContent: 596;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+
+
+/* card-a */
+
+.card-a {
+	position: absolute;
+	box-shadow: 0px 6.21px 7.77px -4.66px rgba(0, 0, 0, 0.1),0px 15.53px 19.42px -3.88px rgba(0, 0, 0, 0.1);
+	width: 99px; height: 99px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	padding: 17px 5px;
+	border: 3px solid #fff;
+	border-radius: 12.43px;
+	--minContent: 99;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-icon {
+	width: 37px; height: 37px;
+	flex-shrink: 0;
+	--minContent: 37;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-text1 {
+	align-self: stretch;
+	--minContent: 83;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end card-a*/
+
+
+.hero-section-icon {
+	position: absolute; top: 60px; left: 60px; 
+	width: calc(100% - 120px); height: 477px;
+	max-width: 477px;
+	--minContent: 0;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.hero-section-line {
+	position: absolute;
+	opacity: 0.5;
+	background-color: #0d2e49;
+	--minContent: 2;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+.hero-section-circle {
+	position: absolute; top: 6%; left: 6%; 
+	opacity: 0.3;
+	width: 88%; height: 88%;
+	border: 2px dashed #14b8a6;
+	border-radius: 50%;
+	--minContent: 275;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+.hero-section-line1 {
+	top: 0; left: 50%; 
+	width: 0; height: 25%;
+	background-color: #6b5a3d;
+	border-left: 2px solid #6b5a3d;
+}
+
+.hero-section-line2 {
+	bottom: 0; left: 50%; 
+	width: 0; height: 25%;
+	border-left: 2px solid #0c2e4b;
+}
+
+.hero-section-line3 {
+	top: 50%; left: 0; 
+	width: 25%; height: 0;
+	border-top: 2px solid #14b8a6;
+}
+
+.hero-section-line4 {
+	top: 50%; right: 0; 
+	width: 25%; height: 0;
+	border-top: 2px solid #d3b47b;
+}
+
+.card3 {
+	top: 0; left: 249px; 
+	background-color: #6b5a3d;
+}
+
+.card4 {
+	top: 249px; left: 497px; 
+	width: unset;
+	background-color: #d3b47b;
+	padding-top: 9px;
+	padding-bottom: 8px;
+}
+
+.card4 .card-text1 {
+	width: 54px;
+	align-self: unset;
+}
+
+.card5 {
+	top: 497px; left: 249px; 
+	background-color: #0c2e4b;
+}
+
+.card6 {
+	top: 249px; left: 0; 
+	background-color: #14b8a6;
+}
+
+.card7 {
+	position: absolute; top: 224px; left: 224px; 
+	box-shadow: 0px 19.42px 38.83px -9.32px rgba(0, 0, 0, 0.25);
+	width: 149px; height: 149px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: #0c2e4b;
+	padding: 22px 28px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	--minContent: 149;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-sehatti-posts {
+	width: 81px;
+	flex-shrink: 0;
+	--minContent: 81;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-text4 {
+	margin: 0 5px;
+	align-self: stretch;
+	--minContent: 81;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work1 {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	gap: 41px;
+	align-self: stretch;
+	letter-spacing: 0px;
+	text-align: left;
+	background-color: #f2e9d7;
+	padding: 63px 84px 79px 100px;
+	--minContent: 896;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-col-left {
+	margin-top: 16px;
+	width: 110%; height: 830px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 19px;
+	flex-grow: 1;
+	font-weight: 500;
+	--minContent: 671;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-work-btn1 {
+	width: 113px;
+	align-self: start;
+}
+
+.our-work-subtitle {
+	color: #6b5a3d;
+	font-size: 44px;
+	text-transform: capitalize;
+	line-height: normal;
+	letter-spacing: -1px;
+	--minContent: 671;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-text {
+	--minContent: 671;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container1 {
+	container: our-work-container1 / inline-size;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	--minContent: 522;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-a */
+
+.container-a {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	background-color: #fff;
+	padding: 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 14px;
+	--minContent: 492;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-container1 {
+	margin-top: 1px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	flex-shrink: 0;
+	--minContent: 394;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-heading1 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 394;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph1 {
+	color: #4a5565;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	--minContent: 394;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-a*/
+
+
+
+
+/* container-c */
+
+.container-c {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	background-color: #fff;
+	padding: 16px 16px 15px 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 14px;
+	--minContent: 522;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-container2 {
+	margin-top: 1px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	flex-shrink: 0;
+	--minContent: 424;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-heading2 {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.5;
+	--minContent: 424;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph2 {
+	color: #4a5565;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	--minContent: 424;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-c*/
+
+
+.container7 .container1 {
+	background-color: #6b5a3d;
+}
+
+.container7 .container-container1 {
+	max-width: 394px;
+}
+
+.container8 .container2 {
+	background-color: #6b5a3d;
+}
+
+.container8 .container-container2 {
+	max-width: 424px;
+}
+
+.container9 .container1 {
+	background-color: #6b5a3d;
+}
+
+.container9 .container-container1 {
+	max-width: 410px;
+}
+
+.container10 .container2 {
+	background-color: #6b5a3d;
+}
+
+.container10 .container-container2 {
+	max-width: 378px;
+}
+
+.container11 .container1 {
+	background-color: #6b5a3d;
+}
+
+.container11 .container-container1 {
+	max-width: 393px;
+}
+
+.container12 .container1 {
+	background-color: #6b5a3d;
+}
+
+.container12 .container-container1 {
+	max-width: 413px;
+}
+
+.our-work-container2 {
+	position: relative;
+	width: 90%; height: 846px;
+	flex-grow: 1;
+	--minContent: 0;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card8 {
+	container: card8 / inline-size;
+	position: absolute; top: 16px; left: 0; 
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	width: calc(100% - 0px);
+	max-width: 528px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border: 4px solid #e5e7eb;
+	border-radius: 16px;
+	overflow: hidden;
+	--minContent: 528;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-container1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: #6b5a3d;
+	padding: 17px 16px 15px 16px;
+	--minContent: 278;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-heading1 {
+	--minContent: 194;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-container2 {
+	margin-top: -2px;
+	width: 52px;
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	flex-shrink: 0;
+	--minContent: 52;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-circle-container-a {
+	width: 12px; height: 12px;
+	flex-shrink: 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	--minContent: 12;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-circle3 {
+	height: 12px;
+	flex-grow: 1;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	--minContent: 8;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container3 {
+	container: card-container3 / inline-size;
+	align-items: stretch;
+	gap: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	background-color: #f9fafb;
+	padding-top: 24px;
+	padding-bottom: 29px;
+	--minContent: 520;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container4 {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	font-size: 12px;
+	line-height: 1.333;
+	--minContent: 472;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-d */
+
+.container-d {
+	width: 100%; height: 98px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	flex-grow: 1;
+	background-color: #fff;
+	padding: 12px;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	--minContent: 147;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph3 {
+	color: #0c2e4b;
+	--minContent: 121;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-subtitle {
+	font-size: 24px;
+	font-weight: 700;
+	--minContent: 121;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container-text-paragraph4 {
+	color: #00a63e;
+	--minContent: 121;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-d*/
+
+
+.container13 .container-subtitle {
+	color: #14b8a6;
+}
+
+.container14 .container-subtitle {
+	color: #d3b47b;
+}
+
+.container15 {
+	color: #0c2e4b;
+}
+
+.container15 .container-text-paragraph3 {
+	color: unset;
+}
+
+.card-container5 {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	color: #0d2e49;
+	background-color: #fff;
+	padding: 16px 16px 13px 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	--minContent: 472;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-heading2 {
+	--minContent: 438;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container6 {
+	container: card-container6 / inline-size;
+	display: flex;
+	flex-direction: column;
+	gap: 11px;
+	--minContent: 296;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* row */
+
+.row {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	--minContent: 296;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.row-container {
+	width: 100%; height: 109px;
+	flex-grow: 1;
+	border-radius: 4px;
+	--minContent: 53;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end row*/
+
+
+.row1 .row-container1 {
+	background-color: #14b8a6;
+}
+
+.row1 .row-container2 {
+	background-color: #14b8a6;
+}
+
+.row1 .row-container3 {
+	background-color: #14b8a6;
+}
+
+.row1 .row-container4 {
+	width: 101%;
+	background-color: #14b8a6;
+}
+
+.row1 .row-container5 {
+	background-color: #14b8a6;
+}
+
+.row2 .row-container1 {
+	background-color: #d3b47b;
+}
+
+.row2 .row-container2 {
+	background-color: #d3b47b;
+}
+
+.row2 .row-container3 {
+	background-color: #d3b47b;
+}
+
+.row2 .row-container4 {
+	width: 101%;
+	background-color: #d3b47b;
+}
+
+.row2 .row-container5 {
+	background-color: #d3b47b;
+}
+
+.row3 .row-container1 {
+	height: 108px;
+	background-color: #d3b47b;
+}
+
+.row3 .row-container2 {
+	height: 108px;
+	background-color: #d3b47b;
+}
+
+.row3 .row-container3 {
+	height: 108px;
+	background-color: #fbbf24;
+}
+
+.row3 .row-container4 {
+	width: 101%; height: 108px;
+	background-color: #fbbf24;
+}
+
+.row3 .row-container5 {
+	height: 108px;
+	background-color: #fbbf24;
+}
+
+.row4 .row-container1 {
+	background-color: #fbbf24;
+}
+
+.row4 .row-container2 {
+	background-color: #fbbf24;
+}
+
+.row4 .row-container3 {
+	background-color: #fbbf24;
+}
+
+.row4 .row-container4 {
+	width: 101%;
+	background-color: #f87171;
+}
+
+.row4 .row-container5 {
+	background-color: #f87171;
+}
+
+.card-btn1 {
+	color: #0c2e4b;
+	text-align: center;
+	background-color: #d3b47b;
+	padding: 8px 20px;
+	border-radius: 40px;
+	--minContent: 472;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-btn2 {
+	top: 0; left: 432px; 
+	justify-content: unset;
+	color: #fff;
+	font-weight: 400;
+	text-align: left;
+}
+
+.our-commitments1 {
+	container: our-commitments1 / inline-size;
+	margin: 67px auto 0 auto;
+	width: 90%; height: 1019px;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 62px;
+	flex-shrink: 0;
+	--minContent: 1085;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-col-top1 {
+	height: 156px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 9px;
+	flex-shrink: 0;
+	font-weight: 500;
+	--minContent: 748;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-btn-employee-portal {
+	width: 236px;
+}
+
+.our-commitments-container1 {
+	display: flex;
+	align-items: center;
+	gap: 65px;
+	align-self: stretch;
+	letter-spacing: 0px;
+	text-align: left;
+	--minContent: 1085;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container2 {
+	width: 94%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-grow: 1;
+	--minContent: 342;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card9 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 15px;
+	--minContent: 317;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container7 {
+	margin-left: -3px;
+	background-color: #d3b47b;
+	padding: 10px;
+	border-radius: 10px;
+	--minContent: 37;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-icon2 {
+	margin: 0 auto;
+	width: 20px; height: 20px;
+	--minContent: 20;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.col1 {
+	width: 244px;
+}
+
+.col1 .column-subtitle1 {
+	margin-right: 37px;
+}
+
+.card10 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 25px;
+	--minContent: 314;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container16 {
+	margin-left: -4px;
+}
+
+.col2 {
+	width: 242px;
+}
+
+.col2 .column-text1 {
+	margin-right: 49px;
+}
+
+.card11 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 49px;
+	--minContent: 342;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container17 {
+	margin-left: 5px;
+}
+
+.heading {
+	width: 261px;
+}
+
+.heading .column-text1 {
+	margin-right: 9px;
+}
+
+.card12 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 31px;
+	--minContent: 307;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container18 {
+	margin-left: -6px;
+}
+
+.col3 {
+	width: 237px;
+}
+
+.col3 .column-text1 {
+	margin-right: 4px;
+}
+
+.our-commitments-employee {
+	box-shadow: 0px 30.16px 60.32px -14.48px rgba(0, 0, 0, 0.25);
+	width: 113%;
+	flex-grow: 1;
+	background-color: #0d2e49;
+	padding: 15px 14px 14px 15px;
+	border-radius: 57.9px;
+	--minContent: 282;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-commitments-container3 {
+	background-color: #fff;
+	padding-bottom: 1px;
+	border-radius: 48.25px;
+	--minContent: 253;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container4 {
+	height: 771px;
+	background-color: #f9fafb;
+	--minContent: 253;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container5 {
+	width: 94%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	flex-grow: 1;
+	--minContent: 331;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card13 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 19px;
+	--minContent: 331;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.container19 {
+	margin-left: 2px;
+}
+
+.col4 {
+	width: 253px;
+}
+
+.card14 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 25px;
+	--minContent: 317;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container8 {
+	margin-left: -3px;
+	background: linear-gradient(180deg, #d2b377 0%, #c29f5f 100%) top left / auto auto no-repeat;
+	padding: 11px;
+	border-radius: 10px;
+	--minContent: 37;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-circle4 {
+	position: relative;
+	margin: 0 auto;
+	width: 18px; height: 18px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	--minContent: 18;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-graphic {
+	position: absolute; top: 33%; left: 28%; 
+	width: 44%;
+	--minContent: 4;
+	--hSizing: FILL;
+	--vSizing: FILL;
+	--pConstraintHorizontal: SCALE;
+	--pConstraintVertical: SCALE;
+}
+
+.col5 {
+	width: 244px;
+}
+
+.col5 .column-subtitle1 {
+	margin-right: 44px;
+}
+
+.card15 {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	background-color: #0d2e49;
+	padding: 21px 21px 31px 21px;
+	border: 1px solid #60738b;
+	border-radius: 20px;
+	--minContent: 317;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container9 {
+	position: relative;
+	width: 40px; height: 40px;
+	flex-shrink: 0;
+	background: linear-gradient(180deg, #d2b377 0%, #c29f5f 100%) top left / auto auto no-repeat;
+	border-radius: 10px;
+	--minContent: 40;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-line1 {
+	top: 27%; left: 40%; 
+}
+
+.card-line2 {
+	top: 27%; right: 44%; 
+}
+
+.card-group {
+	position: absolute; top: 12px; left: 12px; 
+	width: 17px; height: 17px;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	--minContent: 17;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+}
+
+.card-line3 {
+	top: 25%; left: -12%; 
+	width: 125%; height: 0;
+	border-left: unset;
+	border-top: 2px solid #fff;
+}
+
+.col6 {
+	width: 221px;
+}
+
+.card16 {
+	justify-content: center;
+	gap: 12px;
+	padding-bottom: 40px;
+	--minContent: 326;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.col7 {
+	width: 250px;
+}
+
+.col7 .column-text1 {
+	margin-right: 23px;
+}
+
+.our-work2 {
+	container: our-work2 / inline-size;
+	margin-top: 68px;
+	height: 951px;
+	justify-content: center;
+	gap: 47px;
+	flex-shrink: 0;
+	align-self: stretch;
+	background-color: #0d2e49;
+	padding-top: 63px;
+	padding-bottom: 64px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.col-top1 {
+	width: 100%; height: 176px;
+	max-width: 1392px;
+	gap: 19px;
+	font-weight: 500;
+}
+
+.col-top1 .column-btn-ai-consultant {
+	width: 246px;
+	align-self: center;
+	color: #0c2e4b;
+}
+
+.col-top1 .column-subtitle2 {
+	color: #d3b47b;
+}
+
+.col-top1 .column-text-bottom {
+	color: #fff;
+}
+
+.our-work-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 32px;
+	letter-spacing: 0px;
+	text-align: left;
+	--minContent: 1240;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container3 {
+	position: relative;
+	width: 100%; height: 602px;
+	max-width: 544px;
+	flex-shrink: 0;
+	font-weight: 400;
+	--minContent: 544;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card17 {
+	position: absolute; top: 16px; left: 0; 
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	width: calc(100% - 0px);
+	max-width: 528px;
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 24px 24px 40px 24px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	--minContent: 432;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-col {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	--minContent: 383;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container10 {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	color: #fff;
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	--minContent: 212;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-circle5 {
+	width: 48px; height: 48px;
+	flex-shrink: 0;
+	background-color: #d3b47b;
+	padding: 12px;
+	border-radius: 50%;
+	--minContent: 48;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-icon3 {
+	margin: 0 auto;
+	width: 24px; height: 24px;
+	--minContent: 24;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.card-container11 {
+	margin-top: 1px;
+	width: 152px;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	--minContent: 152;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-text-heading3 {
+	font-size: 16px;
+	line-height: 1.5;
+	--minContent: 152;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container12 {
+	margin-top: -1px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 134;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-circle6 {
+	opacity: 0.54;
+	background-color: #05df72;
+}
+
+.card-text5 {
+	--minContent: 118;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-container13 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 16px;
+	--minContent: 383;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container14 {
+	width: 100%;
+	max-width: 382px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-self: start;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 16px 15px 16px 16px;
+	border-radius: 14px;
+	--minContent: 382;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph1 {
+	--minContent: 351;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph2 {
+	color: rgba(255, 255, 255, 0.4);
+	--minContent: 351;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container15 {
+	max-width: 382px;
+	gap: 8px;
+	background-image: linear-gradient(135deg, rgba(20, 184, 166, 0.3) 0%, rgba(12, 46, 75, 0.3) 100%);
+	--minContent: 383;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph3 {
+	margin-right: 36px;
+	--minContent: 349;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph4 {
+	color: #14b8a6;
+	--minContent: 349;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container16 {
+	max-width: 382px;
+	gap: 8px;
+	background-image: linear-gradient(135deg, rgba(20, 184, 166, 0.3) 0%, rgba(12, 46, 75, 0.3) 100%);
+	--minContent: 383;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MAX;
+	--pConstraintVertical: MIN;
+}
+
+.card-container17 {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding: 12px;
+	border-radius: 10px;
+	--minContent: 349;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text-paragraph5 {
+	color: #fff;
+	--minContent: 325;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container18 {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+	font-size: 12px;
+	line-height: 1.333;
+	--minContent: 325;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn {
+	width: 100%; height: 32px;
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	font-style: normal;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 8px 9px;
+	border-radius: 24px;
+	--minContent: 158;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-btn2 {
+	color: #fff;
+	background-color: #6b5a3d;
+}
+
+.card-btn3 {
+	color: #0c2e4b;
+	background-color: #d3b47b;
+}
+
+.card-text-paragraph6 {
+	margin-right: 25px;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 12px;
+	line-height: 1.333;
+	--minContent: 349;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container19 {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1.429;
+	--minContent: 239;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-container20 {
+	margin-top: -4px;
+	display: flex;
+	align-items: flex-start;
+	gap: 4px;
+	--minContent: 32;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.card-text6 {
+	--minContent: 199;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.our-work-btn3 {
+	top: 0; left: 407px; 
+	width: 136px;
+	color: #0c2e4b;
+}
+
+.our-work-container4 {
+	margin-top: 16px;
+	width: 100%;
+	max-width: 664px;
+	display: flex;
+	flex-direction: column;
+	gap: 27px;
+	flex-shrink: 0;
+	color: #fff;
+	font-size: 16px;
+	--minContent: 664;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* container-f */
+
+.container-f {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	background-color: #0d2e49;
+	padding: 33px 0 33px 20px;
+	border: 1px solid #60738b;
+	border-radius: 20px;
+	--minContent: 664;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end container-f*/
+
+
+.container21 .container4 {
+	gap: 7px;
+}
+
+.our-work-container5 {
+	gap: 16px;
+	padding-top: 34px;
+	padding-bottom: 33px;
+	--minContent: 664;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-work-container6 {
+	gap: 16px;
+	padding-top: 33px;
+	padding-bottom: 32px;
+	--minContent: 664;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments2 {
+	margin: 94px auto 0 auto;
+	width: 90%;
+	max-width: 1240px;
+	display: flex;
+	flex-direction: column;
+	gap: 62px;
+	font-weight: 500;
+	--minContent: 1246;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.col-top2 {
+	height: 178px;
+	gap: 20px;
+}
+
+.col-top2 .column-btn-ai-consultant {
+	width: 124px;
+	align-self: center;
+}
+
+.col-top2 .column-subtitle2 {
+	color: #6b5a3d;
+}
+
+.col-top2 .column-text-bottom {
+	color: #0c2e4b;
+}
+
+.our-commitments-container6 {
+	margin-top: 24px;
+	width: 100%;
+	max-width: 1240px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 24px;
+	row-gap: 24px;
+	align-self: start;
+	letter-spacing: 0px;
+	text-align: left;
+	padding-right: 6px;
+	--minContent: 1246;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* card-b */
+
+.card-b {
+	width: 100%;
+	max-width: 396px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	row-gap: 16px;
+	flex-shrink: 0;
+	background-color: #f9fafb;
+	padding: 13px 50px 13px 49px;
+	border-radius: 20px;
+	--minContent: 395;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-subtitle1 {
+	margin-left: -23px;
+	flex-grow: 1;
+	color: #d3b47b;
+	font-size: 23px;
+	text-transform: capitalize;
+	line-height: normal;
+	--minContent: 274;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card-text2 {
+	margin-left: -23px;
+	flex-grow: 1;
+	color: #0c2e4b;
+	font-size: 16px;
+	line-height: 2;
+	--minContent: 274;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end card-b*/
+
+
+
+
+/* card-c */
+
+.card-c {
+	width: 100%;
+	max-width: 395px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	row-gap: 16px;
+	flex-shrink: 0;
+	background-color: #f9fafb;
+	padding: 30px 49px 31px 49px;
+	border-radius: 20px;
+	--minContent: 395;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.card-subtitle2 {
+	margin-left: -23px;
+	flex-grow: 1;
+	color: #d3b47b;
+	font-size: 23px;
+	text-transform: capitalize;
+	line-height: normal;
+	--minContent: 274;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+/* end card-c*/
+
+
+.card18 {
+	max-width: 395px;
+	padding-right: 49px;
+}
+
+.card18 .container5 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.card19 .container5 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.card20 {
+	width: 100%;
+	max-width: 395px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: flex-start;
+	row-gap: 16px;
+	flex-shrink: 0;
+	background-color: #f9fafb;
+	padding: 30px 12px 31px 12px;
+	border-radius: 20px;
+	--minContent: 395;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.container27 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.card-subtitle3 {
+	margin-left: -23px;
+	flex-grow: 1;
+	color: #d3b47b;
+	font-size: 23px;
+	text-transform: capitalize;
+	line-height: normal;
+	text-align: center;
+	--minContent: 348;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.card21 .container6 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.card22 .container5 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.card23 .container6 {
+	background-color: rgba(211, 180, 123, 0.3);
+}
+
+.our-commitments-container7 {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.429;
+	padding-bottom: 667px;
+	--minContent: 119;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container8 {
+	position: absolute; top: 24px; left: 0; right: 0; 
+	display: flex;
+	flex-direction: column;
+	--minContent: 820;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-group {
+	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+	background-color: #0d2e49;
+	padding: 12px 23px 11px 18px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	--minContent: 820;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+}
+
+.our-commitments-container9 {
+	border-radius: 20px;
+	--minContent: 779;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container10 {
+	height: 16px;
+	flex-shrink: 0;
+	background-color: #0d2e49;
+	border-bottom-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	--minContent: 806;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-container11 {
+	width: 192px; height: 8px;
+	flex-shrink: 0;
+	align-self: center;
+	background-color: #0d2e49;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	--minContent: 192;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-btn {
+	position: relative; z-index: 1;
+	width: 119px;
+	font-size: unset;
+	line-height: unset;
+}
+
+.our-commitments3 {
+	margin-top: 94px;
+	height: 360px;
+	justify-content: center;
+	gap: 32px;
+	flex-shrink: 0;
+	align-self: stretch;
+	font-weight: 500;
+	background-color: rgba(211, 180, 123, 0.3);
+	padding-top: 76px;
+	padding-bottom: 77px;
+	--minContent: 994;
+	--hSizing: FILL;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-col-top2 {
+	height: 108px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+	flex-shrink: 0;
+	--minContent: 946;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.our-commitments-btn-cta {
+	width: 100%;
+	max-width: 406px;
+	display: flex;
+	justify-content: center;
+	color: #0c2e4b;
+	font-size: 18px;
+	font-style: normal;
+	text-transform: capitalize;
+	line-height: 1.111;
+	letter-spacing: 0px;
+	text-align: center;
+	background-color: #d3b47b;
+	padding: 24px;
+	border-radius: 70px;
+	--minContent: 406;
+	--hSizing: FIXED;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 177px;
+	align-self: stretch;
+	letter-spacing: 0px;
+	background-color: #fafafa;
+	padding: 52px 24px;
+	--minContent: 1288;
+	--hSizing: FILL;
+	--vSizing: HUG;
+	--pConstraintHorizontal: STRETCH;
+	--pConstraintVertical: MIN;
+}
+
+.footer-col-left {
+	width: 100%; height: 288px;
+	max-width: 321px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 32px;
+	flex-shrink: 0;
+	color: rgba(13, 46, 73, 0.6);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+	text-align: left;
+	--minContent: 321;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.footer-sehatti-posts {
+	width: 173px;
+	flex-shrink: 0;
+	--minContent: 173;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.footer-text {
+	align-self: stretch;
+}
+
+.footer-social-media {
+	width: 167px; height: 22px;
+	flex-shrink: 0;
+	--minContent: 167;
+	--hSizing: FIXED;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.footer-col-right {
+	height: 264px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 54px;
+	--minContent: 742;
+	--hSizing: HUG;
+	--vSizing: FIXED;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: CENTER;
+}
+
+.footer-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 75px;
+	color: #0d2e49;
+	text-align: left;
+	--minContent: 721;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/* column-c */
+
+.column-c {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 18px;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.column-text2 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.111;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+
+.column-col {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.25;
+	--minContent: 128;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: MIN;
+	--pConstraintVertical: MIN;
+}
+/* end column-c*/
+
+
+.footer-text-copyright-2025-sehatti {
+	color: #0c2e4b;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+	text-align: center;
+	--minContent: 742;
+	--hSizing: HUG;
+	--vSizing: HUG;
+	--pConstraintHorizontal: CENTER;
+	--pConstraintVertical: MIN;
+}
+
+
+
+/** breakpoints (margin / paddings) **/
+
+@media screen and (max-width: 1280px) {
+	.header {
+		padding-inline: var(--margin-md);
+	}
+	.header-nav {
+		padding-inline: 0;
+	}
+	.hero-section-text {
+		margin-inline: 0;
+	}
+	.hero-section-btn-cta {
+		padding-inline: var(--margin-sm);
+	}
+	.our-work1 {
+		padding-inline: var(--margin-md);
+	}
+	.col1 .column-subtitle1 {
+		margin-inline: 0;
+	}
+	.col2 .column-text1 {
+		margin-inline: 0;
+	}
+	.heading .column-text1 {
+		margin-inline: 0;
+	}
+	.col5 .column-subtitle1 {
+		margin-inline: 0;
+	}
+	.card15 {
+		padding-inline: var(--margin-sm);
+	}
+	.col7 .column-text1 {
+		margin-inline: 0;
+	}
+	.card17 {
+		padding-inline: var(--margin-sm);
+	}
+	.card-text-paragraph3 {
+		margin-inline: 0;
+	}
+	.card-text-paragraph6 {
+		margin-inline: 0;
+	}
+	.our-commitments-container6 {
+		padding-inline: 0;
+	}
+	.card-b {
+		padding-inline: var(--margin-md);
+	}
+	.card-c {
+		padding-inline: var(--margin-md);
+	}
+	.our-commitments-group {
+		padding-inline: var(--margin-sm);
+	}
+	.our-commitments-btn-cta {
+		padding-inline: var(--margin-sm);
+	}
+	.footer {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header {
+		padding-inline: var(--margin-sm);
+	}
+	.our-work1 {
+		padding-inline: var(--margin-sm);
+	}
+	.card-b {
+		padding-inline: var(--margin-sm);
+	}
+	.card-c {
+		padding-inline: var(--margin-sm);
+	}
+}
+
+
+
+/* container queries (flex rows) */
+
+@container body (width < 1113px) {
+	.header {
+		height: unset;
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+	.header > * {
+		margin-top: unset !important;
+		text-align: center;
+	}
+	.header > .header-nav {
+		width: 100%;
+	}
+}
+
+@container header (width < 609px) {
+	.header-nav {
+		flex-direction: column;
+		align-items: center;
+		gap: 13px;
+	}
+	.header-nav > * {
+		text-align: center;
+	}
+}
+
+@container body (width < 1218px) {
+	.hero-section {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 98px;
+	}
+	.hero-section > * {
+		margin-top: unset !important;
+	}
+}
+
+@container body (width < 895px) {
+	.our-work1 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 100px;
+	}
+	.our-work1 > * {
+		margin-top: unset !important;
+	}
+	.our-work1 > .our-work-col-left {
+		width: 100%;
+	}
+	.our-work1 > .our-work-container2 {
+		width: 100%;
+	}
+}
+
+@container our-work-container1 (width < 490px) {
+	.container-a {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 14px;
+	}
+	.container-a > * {
+		margin-top: unset !important;
+	}
+	.container-a > .container-container1 {
+		align-self: center;
+	}
+}
+
+@container our-work-container1 (width < 520px) {
+	.container-c {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 14px;
+	}
+	.container-c > * {
+		margin-top: unset !important;
+	}
+	.container-c > .container-container2 {
+		align-self: center;
+	}
+}
+
+@container card8 (width < 269px) {
+	.card-container1 {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 13px;
+	}
+	.card-container1 > * {
+		margin-top: unset !important;
+	}
+}
+
+@container card-container3 (width < 471px) {
+	.card-container4 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 17px;
+	}
+	.card-container4 > * {
+		margin-left: unset !important; margin-right: unset !important;
+	}
+	.card-container4 > .container13 {
+		width: 100%;
+	}
+	.card-container4 > .container14 {
+		width: 100%;
+	}
+	.card-container4 > .container15 {
+		width: 100%;
+	}
+}
+
+@container card-container6 (width < 294px) {
+	.row {
+		flex-direction: column;
+		align-items: center;
+		gap: 11px;
+	}
+	.row > .row-container1 {
+		width: 100%;
+	}
+	.row > .row-container2 {
+		width: 100%;
+	}
+	.row > .row-container3 {
+		width: 100%;
+	}
+	.row > .row-container4 {
+		width: 100%;
+	}
+	.row > .row-container5 {
+		width: 100%;
+	}
+}
+
+@container our-commitments1 (width < 1083px) {
+	.our-commitments-container1 {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 100px;
+	}
+	.our-commitments-container1 > * {
+		margin-left: unset !important; margin-right: unset !important; margin-top: unset !important;
+	}
+	.our-commitments-container1 > .our-commitments-container2 {
+		width: 100%;
+	}
+	.our-commitments-container1 > .our-commitments-employee {
+		width: 100%;
+	}
+	.our-commitments-container1 > .our-commitments-container5 {
+		width: 100%;
+	}
+}
+
+@container our-work2 (width < 1239px) {
+	.our-work-row {
+		flex-direction: column;
+		align-items: stretch;
+		gap: 100px;
+	}
+	.our-work-row > * {
+		margin-top: unset !important;
+	}
+	.our-work-row > .our-work-container3 {
+		align-self: center;
+	}
+	.our-work-row > .our-work-container4 {
+		align-self: center;
+	}
+}
+
+@container body (width < 1287px) {
+	.footer {
+		flex-direction: column;
+		align-items: center;
+		gap: 34px;
+	}
+	.footer > * {
+		margin-top: unset !important;
+	}
+}

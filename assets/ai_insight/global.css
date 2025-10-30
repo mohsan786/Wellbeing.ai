@@ -1,0 +1,115 @@
+
+:root {
+	/* responsive margins / paddings */
+	--margin-sm: 16px;
+	--margin-md: 32px;
+}
+
+* {
+	--min-screen-size: 430;
+	--max-screen-size: 1440;
+	--interpolate-diff: calc(var(--max-font-size) - var(--min-font-size));
+	--interpolate: clamp(calc(var(--min-font-size) * 1px), calc((var(--min-font-size) * 1px) + var(--interpolate-diff) * ((100vw - calc(var(--min-screen-size) * 1px)) / (var(--max-screen-size) - var(--min-screen-size)))), calc(var(--max-font-size) * 1px));
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+
+
+/* text utility classes */
+
+.text-white {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0px;
+}
+
+.text2 {
+	font-size: 14px;
+	font-style: normal;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+.text1 {
+	line-height: 1.333;
+}
+
+.text3 {
+	font-size: 14px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.429;
+	letter-spacing: 0px;
+}
+
+
+
+/* section utility classes */
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 24px;
+}
+
+
+
+/* ui objects utility classes */
+
+.card-blue {
+	display: flex;
+	flex-direction: column;
+	background-color: #0d2e49;
+	padding: 82px 10px;
+	border: 1px solid #60738b;
+	border-radius: 20px;
+}
+
+.btn-brown {
+	display: flex;
+	background-color: #d3b47b;
+	border-radius: 40px;
+}
+
+.circle3 {
+	border: 2px solid #d3b47b;
+	border-radius: 50%;
+}
+
+.circle2 {
+	padding: 0 10px;
+	border-radius: 50%;
+}
+
+.circle1 {
+	border-radius: 50%;
+}
+
+.btn {
+	box-shadow: 0px 8px 10px -6px rgba(0, 0, 0, 0.1),0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+	display: flex;
+	padding: 12px 24px;
+	border-radius: 26843500px;
+}
+
+
+
+/* button hover utility classes */
+
+.hover-dark:hover {
+	filter: brightness(0.85);
+}
+
+.hover-bright:hover {
+	filter: brightness(1.2);
+}
