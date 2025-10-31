@@ -303,7 +303,7 @@ body {
 
 .hero-section-title {
 	align-self: stretch;
-	--min-font-size: 29; --max-font-size: 53; font-size: var(--interpolate);
+	--min-font-size: 17; --max-font-size: 45; font-size: var(--interpolate);
 	font-weight: 600;
 	text-transform: capitalize;
 	line-height: 1.472;

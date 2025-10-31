@@ -437,7 +437,7 @@ body {
 .hero-section-title {
   margin-left: 8px;
   margin-top: 16px;
-  height: 496px;
+  /* height: 496px; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -454,7 +454,7 @@ body {
 
 .hero-section-col {
   width: 100%;
-  height: 280px;
+  /* height: 280px; */
   max-width: 672px;
   display: flex;
   flex-direction: column;
@@ -469,7 +469,8 @@ body {
 }
 
 .hero-section-subtitle {
-  font-size: 53px;
+  /* font-size: 53px; */
+  --min-font-size: 28; --max-font-size: 45;
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1.472;
@@ -505,7 +506,7 @@ body {
 .hero-section-container {
   position: relative;
   width: 100%;
-  height: 512px;
+  /* height: 512px; */
   max-width: 544px;
   flex-shrink: 0;
   font-weight: 400;
@@ -813,7 +814,7 @@ body {
 .our-work-col-left {
   margin-top: -16px;
   width: 100%;
-  height: 284px;
+  /* height: 284px; */
   max-width: 671px;
   display: flex;
   flex-direction: column;
@@ -877,7 +878,7 @@ body {
 .our-work-container1 {
   position: relative;
   width: 100%;
-  height: 498px;
+  /* height: 498px; */
   max-width: 544px;
   flex-shrink: 0;
   font-family: "Arial";
@@ -1177,7 +1178,7 @@ body {
 
 .our-commitments1 {
   container: our-commitments1 / inline-size;
-  height: 763px;
+  /* height: 763px; */
   justify-content: center;
   gap: 62px;
   flex-shrink: 0;
@@ -1194,7 +1195,7 @@ body {
 
 .col-top1 {
   width: 100%;
-  height: 192px;
+  /* height: 192px; */
   max-width: 1392px;
   align-items: center;
   gap: 9px;
@@ -1377,7 +1378,7 @@ body {
 
 .our-work2 {
   container: our-work2 / inline-size;
-  height: 815px;
+  /* height: 815px; */
   justify-content: center;
   gap: 62px;
   flex-shrink: 0;
@@ -1576,7 +1577,7 @@ body {
 
 .our-commitments2 {
   container: our-commitments2 / inline-size;
-  height: 1198px;
+  /* height: 1198px; */
   justify-content: center;
   gap: 72px;
   flex-shrink: 0;
@@ -1638,7 +1639,7 @@ body {
 
 .card6 {
   width: 100%;
-  height: 531px;
+  /* height: 531px; */
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -1804,7 +1805,7 @@ body {
 
 .card7 {
   width: 100%;
-  height: 531px;
+  /* height: 531px; */
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -2146,7 +2147,7 @@ body {
 .our-commitments-container10 {
   position: relative;
   z-index: 1;
-  height: 442px;
+  /* height: 442px; */
   background: linear-gradient(
       90deg,
       rgba(12, 46, 75, 0.8) 0%,
@@ -2297,7 +2298,7 @@ body {
 
 .our-commitments4 {
   margin-top: 108px;
-  height: 360px;
+  /* height: 360px; */
   justify-content: center;
   gap: 32px;
   flex-shrink: 0;
@@ -2856,5 +2857,23 @@ body {
   }
   .footer > * {
     margin-top: unset !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .our-commitments-container4{
+    margin-top: 20px;
+  }
+  .our-commitments-container7{
+    margin-top: 20px;
+  }
+  .our-commitments-btn-cta{
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .our-commitments-container11{
+    text-align: center;
+  }
+  .our-commitments-text-paragraph2{
+    margin-top: 120px;
   }
 }
