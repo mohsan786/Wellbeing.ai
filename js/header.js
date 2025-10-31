@@ -23,3 +23,7 @@ const header = `
 `;
 
 document.querySelector("#header").innerHTML = header;
+
+		document.getElementById("burger").addEventListener("click", function () {
+			document.getElementById("mobileNav").classList.toggle("mobile-open");
+		});
