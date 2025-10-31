@@ -711,7 +711,8 @@ body {
 
 .our-work-col-left {
 	margin-top: 16px;
-	width: 110%; height: 830px;
+	width: 110%; 
+	/* height: 830px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -1666,7 +1667,7 @@ body {
 .our-work2 {
 	container: our-work2 / inline-size;
 	margin-top: 68px;
-	height: 951px;
+	/* height: 951px; */
 	justify-content: center;
 	gap: 47px;
 	flex-shrink: 0;
@@ -2870,4 +2871,47 @@ body {
 	.footer > * {
 		margin-top: unset !important;
 	}
+}
+@media screen and (max-width: 576px) {
+	.hero-section-container{
+		display: none;
+	}
+	.hero-section-title2{
+		font-size: 22px;
+	}
+	.our-commitments-container7 {
+    padding-bottom: 95px;
+}
+.text-define-and-enforce{
+	margin-left: 0;
+}
+.card-subtitle3{
+	margin-left: 0;
+	text-align:start;
+}
+.card-subtitle2{
+	margin-left: 0;
+}
+.card-subtitle1{
+	margin-left: 0;
+}
+.card-text2{
+	margin-left: 0;
+}
+.card-text3{
+	margin-left: 0;
+}
+.our-commitments-btn-cta{
+	padding: 16px;
+	margin-top: 16px;
+}
+.our-work-container2 .card8{
+	display: none;
+}
+.our-work-btn3{
+	display: none;
+}
+.our-work-btn2{
+	display: none;
+}
 }
