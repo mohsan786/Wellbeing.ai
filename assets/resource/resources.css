@@ -4202,8 +4202,21 @@ body {
 }
 @media screen and (max-width: 576px) {
 	.group3 .btn1 {
-    left: 284px;
+    left: 200px;
     padding-right: 8px;
+}
+.btn7{
+	left: 200px;
+}
+.container19 .group2 .btn1 {
+    left: 200px;
+    padding-right: 8px;
+}
+.container21 .group2 .btn1 {
+    left: 200px;
+}
+.btn8 {
+    left: 200px;
 }
 .card19{
 	padding: 12px;
