@@ -138,7 +138,7 @@ body {
 /* container-c */
 
 .container-c {
-	width: 96px;
+	width: 110px;
 	display: flex;
 	align-items: center;
 	gap: 4px;
@@ -1189,7 +1189,8 @@ body {
 }
 
 .our-work-col-top1 {
-	width: 100%; height: 255px;
+	width: 100%; 
+	/* height: 255px; */
 	max-width: 1392px;
 	display: flex;
 	flex-direction: column;
@@ -1934,7 +1935,7 @@ body {
 }
 
 .our-commitments1 {
-	height: 1417px;
+	/* height: 1417px; */
 	justify-content: center;
 	gap: 62px;
 	flex-shrink: 0;
@@ -1949,7 +1950,7 @@ body {
 }
 
 .our-commitments-col-top1 {
-	height: 156px;
+	/* height: 156px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -2018,7 +2019,7 @@ body {
 }
 
 .card10 {
-	height: 498px;
+	/* height: 498px; */
 	gap: 32px;
 	flex-grow: 1;
 	--minContent: 504;
@@ -2131,7 +2132,7 @@ body {
 }
 
 .card11 {
-	height: 498px;
+	/* height: 498px; */
 	gap: 32px;
 	flex-grow: 1;
 	padding-bottom: 23px;
@@ -2288,7 +2289,7 @@ body {
 }
 
 .card12 {
-	height: 475px;
+	/* height: 475px; */
 	gap: 32px;
 	flex-grow: 1;
 	text-align: left;
@@ -2434,7 +2435,7 @@ body {
 }
 
 .card13 {
-	height: 475px;
+	/* height: 475px; */
 	gap: 32px;
 	flex-grow: 1;
 	--minContent: 504;
@@ -2540,7 +2541,7 @@ body {
 }
 
 .our-work2 {
-	height: 1375px;
+	/* height: 1375px; */
 	justify-content: center;
 	gap: 62px;
 	flex-shrink: 0;
@@ -2556,7 +2557,8 @@ body {
 
 .our-work-col-top2 {
 	container: our-work-col-top2 / inline-size;
-	width: 100%; height: 231px;
+	width: 100%; 
+	/* height: 231px; */
 	max-width: 1392px;
 	display: flex;
 	flex-direction: column;
@@ -2893,7 +2895,7 @@ body {
 }
 
 .our-work3 {
-	height: 1733px;
+	/* height: 1733px; */
 	justify-content: center;
 	gap: 62px;
 	flex-shrink: 0;
@@ -2911,7 +2913,8 @@ body {
 }
 
 .our-work-col-top3 {
-	width: 100%; height: 187px;
+	width: 100%; 
+	/* height: 187px; */
 	max-width: 1392px;
 	display: flex;
 	flex-direction: column;
@@ -2972,7 +2975,8 @@ body {
 
 .our-work-container8 {
 	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
-	width: 100%; height: 416px;
+	width: 100%; 
+	/* height: 416px; */
 	max-width: 1240px;
 	display: flex;
 	flex-direction: column;
@@ -3412,7 +3416,7 @@ body {
 }
 
 .our-commitments2 {
-	height: 1169px;
+	/* height: 1169px; */
 	justify-content: center;
 	gap: 26px;
 	flex-shrink: 0;
@@ -3456,6 +3460,7 @@ body {
 	box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
 	width: 100%;
 	max-width: 1240px;
+	margin-top: 15px;
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
@@ -4194,4 +4199,22 @@ body {
 	.footer > * {
 		margin-top: unset !important;
 	}
+}
+@media screen and (max-width: 576px) {
+	.group3 .btn1 {
+    left: 284px;
+    padding-right: 8px;
+}
+.card19{
+	padding: 12px;
+}
+.card18{
+	padding: 12px;
+}
+.card20{
+	padding: 12px;
+}
+.card21{
+	padding: 12px;
+}
 }
