@@ -13,7 +13,7 @@
   --pConstraintVertical: MIN;
 }
 
-.footer-col-left {
+.footer .footer-col-left {
   width: 100%;
   height: 288px;
   max-width: 321px;
@@ -23,7 +23,7 @@
   justify-content: center;
   gap: 32px;
   flex-shrink: 0;
-  color: rgba(13, 46, 73, 0.6);
+  color: rgba(13, 46, 73, 0footer 0.6);
   font-size: 16px;
   line-height: 2;
   text-align: left;
@@ -34,7 +34,7 @@
   --pConstraintVertical: CENTER;
 }
 
-.footer-sehatti-posts {
+.footer .footer-sehatti-posts {
   width: 173px;
   flex-shrink: 0;
   --minContent: 173;
@@ -44,11 +44,11 @@
   --pConstraintVertical: MIN;
 }
 
-.footer-text-the-gcc-s-first {
+.footer .footer-text-the-gcc-s-first {
   align-self: stretch;
 }
 
-.footer-social-media {
+.footer .footer-social-media {
   width: 167px;
   height: 22px;
   flex-shrink: 0;
@@ -59,7 +59,7 @@
   --pConstraintVertical: MIN;
 }
 
-.footer-col-right {
+.footer .footer-col-right {
   height: 264px;
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@
   --pConstraintVertical: CENTER;
 }
 
-.footer-row {
+.footer .footer-row {
   display: flex;
   align-items: flex-start;
   gap: 75px;
@@ -88,7 +88,7 @@
 
 /* column-c */
 
-.column-c {
+.footer .column-c {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -100,10 +100,10 @@
   --pConstraintVertical: MIN;
 }
 
-.column-text3 {
+.footer .column-text3 {
   font-size: 18px;
   font-weight: 600;
-  line-height: 1.111;
+  line-height: 1footer 0.111;
   --minContent: 128;
   --hSizing: HUG;
   --vSizing: HUG;
@@ -111,14 +111,14 @@
   --pConstraintVertical: MIN;
 }
 
-.column-col {
+.footer .column-col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.25;
+  line-height: 1footer 0.25;
   --minContent: 128;
   --hSizing: HUG;
   --vSizing: HUG;
@@ -127,7 +127,7 @@
 }
 /* end column-c*/
 
-.footer-text-copyright-2025-sehatti {
+.footer .footer-text-copyright-2025-sehatti {
   color: #0c2e4b;
   font-size: 16px;
   line-height: 2;
@@ -139,7 +139,7 @@
   --pConstraintVertical: MIN;
 }
 @media screen and (min-width: 1200px) and (max-width: 1299px) {
-  .footer-col-left {
+  .footer .footer-col-left {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -147,12 +147,12 @@
     align-items: center;
     justify-content: center;
   }
-  .footer-text-the-gcc-s-first {
+  .footer .footer-text-the-gcc-s-first {
     text-align: center;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  .footer-col-left {
+  .footer .footer-col-left {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -160,12 +160,12 @@
     align-items: center;
     justify-content: center;
   }
-  .footer-text-the-gcc-s-first {
+  .footer .footer-text-the-gcc-s-first {
     text-align: center;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .footer-col-left {
+  .footer .footer-col-left {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -173,14 +173,13 @@
     align-items: center;
     justify-content: center;
   }
-  .footer-text-the-gcc-s-first {
+  .footer .footer-text-the-gcc-s-first {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 767px) {
-  
-  .footer-col-left {
+  .footer .footer-col-left {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -188,29 +187,35 @@
     align-items: center;
     justify-content: center;
   }
-  .footer-text-the-gcc-s-first {
+  .footer .footer-text-the-gcc-s-first {
     text-align: center;
   }
-   .footer-row {
-    gap: 40px;
+  .footer .footer-row {
+    gap: 32px;
     flex-wrap: wrap;
   }
-  .footer-col-right {
+  .footer .footer-col-right {
     height: auto;
   }
- }
- @media screen and (max-width: 1280px) {
-  .footer {
+}
+@media screen and (max-width: 1280px) {
+ .footer {
     padding-inline: var(--margin-sm);
   }
- }
- @container body (width < 1287px) {
-  .footer {
+}
+@container body (width < 1287px) {
+ .footer {
     flex-direction: column;
     align-items: center;
     gap: 34px;
   }
-  .footer > * {
+ .footer > * {
     margin-top: unset !important;
   }
+}
+.footer .column-text3 {
+  align-self: flex-start !important;
+}
+.footer .column-c {
+  width: auto;
 }

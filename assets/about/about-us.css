@@ -811,21 +811,21 @@ body {
 }
 
 .card-component8 {
-	box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
-	width: 100%; 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 20px;
-	flex-grow: 1;
-	background-color: #6b5a3d;
-	padding: 56px 7px;
-	border-radius: 20px;
-	--minContent: 290;
-	--hSizing: FILL;
-	--vSizing: FIXED;
-	--pConstraintHorizontal: MIN;
-	--pConstraintVertical: CENTER;
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    background-color: #6b5a3d;
+    padding: 21px 32px;
+    border-radius: 20px;
+    --minContent: 290;
+    --hSizing: FILL;
+    --vSizing: FIXED;
+    --pConstraintHorizontal: MIN;
+    --pConstraintVertical: CENTER;
 }
 
 .card-component-row-top {
@@ -1702,6 +1702,7 @@ body {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 15px;
+		width: 100%;
 	}
 }
 
@@ -1787,4 +1788,12 @@ body {
 	.footer > * {
 		margin-top: unset !important;
 	}
+}
+@media screen and (max-width:430px) {
+	.col1 {
+	height: auto;
+}
+.col2 {
+	height: auto;
+}
 }
