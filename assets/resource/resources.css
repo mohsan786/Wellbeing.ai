@@ -1173,7 +1173,7 @@ body {
 }
 
 .our-work1 {
-	height: 1634px;
+	/* height: 1634px; */
 	justify-content: center;
 	gap: 62px;
 	flex-shrink: 0;
