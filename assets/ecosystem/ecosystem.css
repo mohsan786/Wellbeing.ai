@@ -468,7 +468,8 @@ body {
 
 .hero-section-title2 {
 	color: #d3b47b;
-	font-size: 53px;
+	--min-font-size: 29;
+    --max-font-size: 53;
 	font-weight: 600;
 	text-transform: capitalize;
 	line-height: 1.472;
