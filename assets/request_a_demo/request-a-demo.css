@@ -449,7 +449,7 @@ body {
 
 .our-work1 {
 	margin-top: 105px;
-	height: 1330px;
+	/* height: 1330px; */
 	justify-content: center;
 	gap: 62px;
 	flex-shrink: 0;
@@ -469,7 +469,8 @@ body {
 
 .our-work-component {
 	container: our-work-component / inline-size;
-	width: 100%; height: 970px;
+	width: 100%; 
+	/* height: 970px; */
 	max-width: 1240px;
 	display: flex;
 	flex-direction: column;
@@ -592,7 +593,7 @@ body {
 
 
 .our-work-col1 {
-	height: 379px;
+	/* height: 379px; */
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -710,7 +711,7 @@ body {
 
 .our-work2 {
 	container: our-work2 / inline-size;
-	height: 779px;
+	/* height: 779px; */
 	justify-content: center;
 	gap: 58px;
 	flex-shrink: 0;
@@ -762,7 +763,7 @@ body {
 .our-work-btn {
 	width: 95px; height: 95px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	flex-shrink: 0;
 	font-style: normal;
 	letter-spacing: 0px;
@@ -884,7 +885,7 @@ body {
 /* card-component */
 
 .card-component {
-	height: 123px;
+	/* height: 123px; */
 	display: flex;
 	align-items: center;
 	gap: 20px;
@@ -961,7 +962,7 @@ body {
 }
 
 .our-commitments2 {
-	height: 534px;
+	/* height: 534px; */
 	justify-content: center;
 	gap: 32px;
 	flex-shrink: 0;
@@ -1352,4 +1353,21 @@ body {
 	.footer > * {
 		margin-top: unset !important;
 	}
+}
+@media screen and (max-width: 576px) {
+	.our-work-row-bottom2{
+		flex-direction: column;
+        align-items: center;
+        gap: 17px;
+	}
+	
+.card-component-text {
+    max-width: 190px;
+  gap: 5;
+}
+.card-component-text2
+ {
+    max-width: 190px;
+  gap: 5;
+}
 }
