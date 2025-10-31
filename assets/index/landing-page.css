@@ -152,6 +152,7 @@ body {
 }
 
 .text-sehatti-a {
+  margin-bottom: 50px;
   color: #0c2e4b;
   --min-font-size: 16;
   --max-font-size: 18;
