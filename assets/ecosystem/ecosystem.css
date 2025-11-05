@@ -325,7 +325,7 @@ body {
 
 
 .text-define-and-enforce {
-	margin-left: -23px;
+	/* margin-left: -23px; */
 	flex-grow: 1;
 	color: #0c2e4b;
 	font-size: 16px;
@@ -1704,7 +1704,7 @@ body {
 }
 
 .our-work-row {
-	display: flex;
+	/* display: flex; */
 	align-items: flex-start;
 	gap: 32px;
 	letter-spacing: 0px;
@@ -2152,7 +2152,7 @@ body {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: flex-start;
-	gap: 24px;
+	gap: 10px;
 	row-gap: 24px;
 	align-self: start;
 	letter-spacing: 0px;
@@ -2241,7 +2241,7 @@ body {
 }
 
 .card-subtitle2 {
-	margin-left: -23px;
+	/* margin-left: -23px; */
 	flex-grow: 1;
 	color: #d3b47b;
 	font-size: 23px;
@@ -2293,7 +2293,7 @@ body {
 }
 
 .card-subtitle3 {
-	margin-left: -23px;
+	/* margin-left: -23px; */
 	flex-grow: 1;
 	color: #d3b47b;
 	font-size: 23px;
