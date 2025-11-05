@@ -2330,7 +2330,7 @@ body {
 
 .our-commitments-col {
   width: 100%;
-  max-width: 552px;
+  /* max-width: 552px; */
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
