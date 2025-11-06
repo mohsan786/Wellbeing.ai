@@ -970,7 +970,7 @@ body {
 	gap: 44px;
 	color: #fff;
 	text-align: center;
-	background: linear-gradient(180deg, rgba(12, 46, 75, 0.4) 0%, #0c2e4b 100%) top left / auto auto no-repeat, url(/assets/resource/hero-section.png) center / cover no-repeat;
+	background: linear-gradient(180deg, rgba(12, 46, 75, 0.4) 0%, #0c2e4b 100%) top left / auto auto no-repeat, url(../resource/hero-section.png) center / cover no-repeat;
 	padding: 155px 24px 156px 24px;
 	overflow: hidden;
 	--minContent: 1288;
@@ -1707,7 +1707,7 @@ body {
 
 
 .row-top .card-article-container1 {
-	background-image: url(/assets/resource/container/card-article-container.png);
+	background-image: url(../resource/container/card-article-container.png);
 }
 
 .row-top .card-article-container3 {
@@ -1743,7 +1743,7 @@ body {
 
 .row-top .card-article2 .card-article-container5 {
 	margin-right: 1px;
-	background-image: url(/assets/resource/container/card-article-container2.png);
+	background-image: url(../resource/container/card-article-container2.png);
 }
 
 .row-top .card-article2 .card-article-btn3 {
@@ -1783,7 +1783,7 @@ body {
 }
 
 .row-top .card-article3 .card-article-container5 {
-	background-image: url(/assets/resource/container/card-article-container3.png);
+	background-image: url(../resource/container/card-article-container3.png);
 }
 
 .row-top .card-article3 .card-article-btn3 {
@@ -1828,7 +1828,7 @@ body {
 }
 
 .row-bottom .card-article-container1 {
-	background-image: url(/assets/resource/container/card-article-container4.png);
+	background-image: url(../resource/container/card-article-container4.png);
 }
 
 .row-bottom .card-article-container3 {
@@ -1860,7 +1860,7 @@ body {
 
 .row-bottom .card-article2 .card-article-container5 {
 	margin-right: 1px;
-	background-image: url(/assets/resource/container/card-article-container5.png);
+	background-image: url(../resource/container/card-article-container5.png);
 }
 
 .row-bottom .card-article2 .card-article-btn3 {
@@ -1899,7 +1899,7 @@ body {
 }
 
 .row-bottom .card-article3 .card-article-container5 {
-	background-image: url(/assets/resource/container/card-article-container.png);
+	background-image: url(../resource/container/card-article-container.png);
 }
 
 .row-bottom .card-article3 .card-article-btn3 {
@@ -2678,7 +2678,7 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.429;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%) top left / auto auto no-repeat, url(/assets/resource/card.png) center / cover no-repeat;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%) top left / auto auto no-repeat, url(../resource/card.png) center / cover no-repeat;
 	padding: 16px 16px 30px 16px;
 	--minContent: 471;
 	--hSizing: FIXED;
@@ -2800,7 +2800,7 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.429;
-	background: url(/assets/resource/our-work-container1.png) center / cover no-repeat;
+	background: url(../resource/our-work-container1.png) center / cover no-repeat;
 	--minContent: 471;
 	--hSizing: FIXED;
 	--vSizing: HUG;
@@ -3001,7 +3001,7 @@ body {
 	align-self: stretch;
 	font-size: 14px;
 	line-height: 1.429;
-	background: linear-gradient(rgba(12, 46, 75, 0.4), rgba(12, 46, 75, 0.4)) top left / auto auto no-repeat, url(/assets/resource/our-work-container2.png) center / cover no-repeat;
+	background: linear-gradient(rgba(12, 46, 75, 0.4), rgba(12, 46, 75, 0.4)) top left / auto auto no-repeat, url(../resource/our-work-container2.png) center / cover no-repeat;
 	padding: 166px 14px;
 	--minContent: 795;
 	--hSizing: FILL;
@@ -3301,7 +3301,7 @@ body {
 .card-container15 {
 	position: relative;
 	color: #000;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/resource/card-container1.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../resource/card-container1.png);
 	--minContent: 80;
 	--hSizing: FILL;
 	--vSizing: HUG;
@@ -3329,7 +3329,7 @@ body {
 }
 
 .container19 {
-	background-image: url(/assets/resource/container/container1.png);
+	background-image: url(../resource/container/container1.png);
 }
 
 .container19 .group2 .btn1 {
@@ -3365,7 +3365,7 @@ body {
 }
 
 .container21 {
-	background-image: url(/assets/resource/container/container2.png);
+	background-image: url(../resource/container/container2.png);
 }
 
 .container21 .group2 .btn1 {
@@ -3391,7 +3391,7 @@ body {
 .card-container16 {
 	position: relative;
 	color: #000;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/resource/card-container2.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../resource/card-container2.png);
 	--minContent: 80;
 	--hSizing: FILL;
 	--vSizing: HUG;

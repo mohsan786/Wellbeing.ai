@@ -422,7 +422,7 @@ body {
   justify-content: center;
   gap: 40px;
   text-align: left;
-  background: url(/assets/ai_insight/hero-section.png) center / cover no-repeat,
+  background: url(../ai_insight/hero-section.png) center / cover no-repeat,
     linear-gradient(180deg, #0a1f33 0%, #0c2e4b 50%, #0a1f33 100%) top left /
       auto auto no-repeat;
   padding: 86px 24px 102px 24px;
