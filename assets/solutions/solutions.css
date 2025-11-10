@@ -1585,7 +1585,7 @@ body {
 .card-container10 {
 	display: flex;
 	flex-direction: column;
-	gap: 7px;
+	/* gap: 7px; */
 	--minContent: 535;
 	--hSizing: FILL;
 	--vSizing: HUG;

@@ -2239,10 +2239,12 @@ body {
 
 .our-commitments-container13 {
   margin-top: 14px;
+  margin-bottom: 14px;
   display: flex;
   align-items: flex-start;
+  justify-content: space-between;
   gap: 12px;
-  align-self: start;
+  /* align-self: start; */
   text-align: center;
   --minContent: 471;
   --hSizing: HUG;
@@ -2254,7 +2256,7 @@ body {
 /* container-d */
 
 .container-d {
-  width: 146px;
+  /* width: 146px; */
   display: flex;
   flex-direction: column;
   gap: 3px;
@@ -2293,7 +2295,7 @@ body {
 
 .container8 {
   margin-left: 4px;
-  width: 150px;
+  /* width: 150px; */
 }
 
 .our-commitments4 {

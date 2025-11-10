@@ -703,7 +703,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 378px;
+  height: 100%;
   background-color: #fff;
   --minContent: 189;
   --hSizing: FILL;
