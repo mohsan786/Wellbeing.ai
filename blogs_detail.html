@@ -57,7 +57,7 @@
             }
 
             const title = article.content.en.title;
-            const description = article.content.en.description; // keep HTML
+            const description =  article.content.en.description.replace(/<[^>]+>/g, ''); 
             const thumbnail = article.thumbnail_url;
 			herotexth1.textContent = title;
 			herotextp.textContent = description;
