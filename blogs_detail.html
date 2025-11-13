@@ -18,11 +18,8 @@
 	</header>
 	
 	<div class="hero-section" id="hero-section">
-		<div class="hero-section-col-top">
-			<h1 class="hero-section-title" style="color: white;" id="hero-h1-text"></h1>
-			<p class="hero-section-text" id="hero-p-text">
-
-			</p>
+		<div class="hero-section-col-top" id="hero-section-col-top">
+			
 		</div>
 	</div>
 	<div class="container">
@@ -42,8 +39,7 @@
     const API_URL = "https://official.sehatti.app/updated/api/media/v1/articles/site-articles";
     const articleDetail = document.getElementById("article-detail");
 	const heroSection = document.getElementById("hero-section");
-    const herotexth1 = document.getElementById("hero-h1-text");
-    const herotextp = document.getElementById("hero-p-text");
+    const herotext = document.getElementById("hero-section-col-top");
 
     async function fetchArticle() {
         try {
@@ -59,8 +55,10 @@
             const title = article.content.en.title;
             const description =  article.content.en.description.replace(/<[^>]+>/g, ''); 
             const thumbnail = article.thumbnail_url;
-			herotexth1.textContent = title;
-			herotextp.textContent = description;
+			herotext.innerHTML = `
+			<h1 class="hero-section-title" style="color: white;">${title}</h1>
+			<p class="hero-section-text">${description}</p>
+			`;
 
 			 heroSection.style.backgroundImage = `
 				linear-gradient(180deg, rgba(12, 46, 75, 0.4) 0%, #0c2e4b 100%),
