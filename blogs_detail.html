@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/resource/reset.css" />
+	<link rel="stylesheet" href="assets/resource/global.css" />
+	<link rel="stylesheet" href="assets/resource/resources.css" />
+	<link rel="stylesheet" href="assets/common_css/header.css" />
+	<link rel="stylesheet" href="assets/common_css/footer.css" />
+	<link rel="stylesheet" href="assets/resource/tabs.css" />
+</head>
+
+<body>
+	<header class="header" id="header">
+		
+	</header>
+	
+	<div class="hero-section" id="hero-section">
+		<div class="hero-section-col-top">
+			<h1 class="hero-section-title" style="color: white;" id="hero-h1-text"></h1>
+			<p class="hero-section-text" id="hero-p-text">
+
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<a href="resources.html" class="back-link">← Back to Articles</a>
+		<div id="article-detail">
+		</div>
+
+	</div>
+	
+
+	<footer class="footer" id="footer"> </footer>
+	<script src="js/header.js"></script>
+	<script src="js/footer.js"></script>
+	<script>
+    const params = new URLSearchParams(window.location.search);
+    const articleId = params.get("id");
+    const API_URL = "https://official.sehatti.app/updated/api/media/v1/articles/site-articles";
+    const articleDetail = document.getElementById("article-detail");
+	const heroSection = document.getElementById("hero-section");
+    const herotexth1 = document.getElementById("hero-h1-text");
+    const herotextp = document.getElementById("hero-p-text");
+
+    async function fetchArticle() {
+        try {
+            const response = await fetch(API_URL);
+            const json = await response.json();
+            const article = json.data.find(a => a.article_id === articleId);
+
+            if (!article) {
+                articleDetail.innerHTML = "<p>Article not found.</p>";
+                return;
+            }
+
+            const title = article.content.en.title;
+            const description = article.content.en.description; // keep HTML
+            const thumbnail = article.thumbnail_url;
+			herotexth1.textContent = title;
+			herotextp.textContent = description;
+
+			 heroSection.style.backgroundImage = `
+				linear-gradient(180deg, rgba(12, 46, 75, 0.4) 0%, #0c2e4b 100%),
+				url(${thumbnail})
+				`;
+				heroSection.style.backgroundPosition = "center";
+				heroSection.style.backgroundSize = "cover";
+				heroSection.style.backgroundRepeat = "no-repeat";
+            articleDetail.innerHTML = `
+                <img src="${thumbnail}" alt="${title}">
+                <h1>${title}</h1>
+                <div>${description}</div>
+            `;
+        } catch (error) {
+            console.error("Error fetching article:", error);
+            articleDetail.innerHTML = "<p>Failed to load article.</p>";
+        }
+    }
+
+    fetchArticle();
+</script>
+</body>
+
+</html>

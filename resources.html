@@ -381,8 +381,8 @@
 
         <div class="tabs">
             <button class="tab active" data-category="all">All</button>
-            <button class="tab" data-category="blogs">Blogs</button>
-            <button class="tab" data-category="research">Research</button>
+            <button class="tab" data-category="site_blog">Blogs</button>
+            <button class="tab" data-category="site_research">Research</button>
         </div>
 
         <div class="gallery" id="gallery">
@@ -1008,7 +1008,80 @@
 	<footer class="footer" id="footer"> </footer>
 	<script src="js/header.js"></script>
 	<script src="js/footer.js"></script>
-	<script src="js/tabs.js"></script>
+	<!-- <script src="js/tabs.js"></script> -->
+	 <script>
+    const API_URL = "https://official.sehatti.app/updated/api/media/v1/articles/site-articles";
+    const gallery = document.getElementById('gallery');
+    const tabs = document.querySelectorAll('.tab');
+    let allArticles = [];
+
+    // Fetch data from API
+    async function fetchArticles() {
+        try {
+            const response = await fetch(API_URL);
+            const json = await response.json();
+            allArticles = json.data;
+            displayArticles(allArticles); // show all initially
+        } catch (error) {
+            console.error("Error fetching articles:", error);
+            gallery.innerHTML = "<p>Failed to load articles.</p>";
+        }
+    }
+
+    // Display articles in gallery
+    function displayArticles(articles) {
+        gallery.innerHTML = ""; // Clear gallery
+        if (!articles || articles.length === 0) {
+            gallery.innerHTML = "<p>No articles found.</p>";
+            return;
+        }
+
+        articles.forEach(article => {
+            const title = article.content.en.title;
+            const description = article.content.en.description.replace(/<[^>]+>/g, ''); // remove HTML tags
+            const thumbnail = article.thumbnail_url;
+            const category = article.category;
+
+            const card = document.createElement('div');
+            card.className = `gallery-item`;
+            card.setAttribute("data-category", category);
+			card.style.animationDelay = `${article.article_id * 0.1}s`;
+			card.style.cursor = "pointer";
+			card.addEventListener("click", () => {
+                // Redirect to detail page
+                window.location.href = `blogs_detail.html?id=${article.article_id}`;
+            });
+            card.innerHTML = `
+                <img src="${thumbnail}" alt="${title}">
+                 <div class="item-info">
+                    <h3>${title}</h3>
+                    <p>${description}</p>
+                </div>
+            `;
+            gallery.appendChild(card);
+        });
+    }
+
+    // Filter articles based on tab click
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+
+            const category = tab.getAttribute('data-category');
+
+            if (category === 'all') {
+                displayArticles(allArticles);
+            } else {
+                const filtered = allArticles.filter(a => a.category === category);
+                displayArticles(filtered);
+            }
+        });
+    });
+
+    // Load articles when page starts
+    fetchArticles();
+</script>
 </body>
 
 </html>
