@@ -18,9 +18,8 @@
 
 	<div class="hero-section1">
 		<div class="hero-section-col-top1">
-			<h1 class="hero-section-title">
-				<b class="bold">The GCC's First </b>AI-Powered Wellbeing<b class="bold"> & </b>Mental Health<b
-					class="bold"> Ecosystem</b>
+			<h1 class="hero-section-title hero-title" id="hero-title">
+				The GCC's First AI-Powered Wellbeing & <br> Mental Health Ecosystem
 			</h1>
 
 			<div class="hero-section-col-bottom">
@@ -648,6 +647,23 @@
 	<footer class="footer" id="footer"> </footer>
 	<script src="js/header.js"></script>
 	<script src="js/footer.js"></script>
+	<script>
+const element = document.getElementById("hero-title");
+const text = element.innerHTML;
+element.innerHTML = "";  // Clear existing text
+
+let i = 0;
+function typeWriter() {
+    if (i < text.length) {
+        element.innerHTML = text.substring(0, i) + '<span class="cursor"></span>';
+        i++;
+        setTimeout(typeWriter, 40); // speed
+    } else {
+        element.innerHTML = text; // remove cursor at end
+    }
+}
+typeWriter();
+</script>
 
 </body>
 

@@ -3282,4 +3282,31 @@ body {
   .footer > * {
     margin-top: unset !important;
   }
+} 
+
+
+.hero-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #0C2C48; /* match your screenshot color */
+    text-align: center;
+    line-height: 1.2;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    /* white-space: pre-wrap;  */
+}
+
+.cursor {
+    border-right: 4px solid #0C2C48;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
+@media screen and (max-width:430px) {
+	.hero-title {
+	font-size: 25px;
+}
 }
