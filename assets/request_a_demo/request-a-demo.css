@@ -515,14 +515,17 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 16px;
+	/* gap: 16px; */
 	--minContent: 552;
 	--hSizing: HUG;
 	--vSizing: HUG;
 	--pConstraintHorizontal: MIN;
 	--pConstraintVertical: CENTER;
 }
-
+.input-group p{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
 .input-group-input {
 	width: 100%;
 	max-width: 552px;

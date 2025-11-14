@@ -70,76 +70,64 @@
 		</div>
 		
 		<div class="our-work-component">
+			<form action="send-email.php" method="post">
 			<div class="row-b row4">
 				<div class="input-group input-group-left">
 					<p class="text-b input-group-text">Full Name<span class="sub-text-red"> *</span></p>
-					<input class="input-group-input input-white" value="i.e. John Doe" />
+					<input class="input-group-input input-white" name="name" placeholder="i.e. John Doe" required />
 				</div>
 				
 				<div class="input-group input-group-right">
 					<p class="text-b input-group-text">Work Email<span class="sub-text-red"> *</span></p>
-					<input class="input-group-input input-white" value="i.e. john.smith@gmail.com" />
+					<input class="input-group-input input-white" name="email" placeholder="i.e. john.smith@gmail.com" required/>
 				</div>
 			</div>
 			
 			<div class="row-b row5">
 				<div class="input-group input-group-left">
 					<p class="text-b input-group-text">Phone</p>
-					<input class="input-group-input input-white" value="i.e. +1 (206) 234 5678" />
+					<input class="input-group-input input-white" name="phone" placeholder="i.e. +1 (206) 234 5678" />
 				</div>
 				
 				<div class="input-group input-group-right">
 					<p class="text-b input-group-text">
 						Organization Name<span class="sub-text-red"> *</span>
 					</p>
-					<input class="input-group-input input-white" value="Enter organization name" />
+					<input class="input-group-input input-white" name="organization" placeholder="Enter organization name" required/>
 				</div>
 			</div>
 			
-			<div class="our-work-row">
-				<div class="column-b col-left">
-					<p class="text-b">Organization Size</p>
-					
-					<div class="row-c">
-						<p class="row-text2">Select</p>
-						<object data="assets/request_a_demo/row/row-mingcute.svg" class="row-mingcute" type="image/svg+xml"></object>
-					</div>
+			<div class="row-b row5">
+				<div class="input-group input-group-left">
+					<p class="text-b input-group-text">Organization Size</p>
+					<input class="input-group-input input-white" name="organization_size" placeholder="Enter organization size" />
 				</div>
-				
-				<div class="column-b col-right">
-					<p class="text-b">Sector</p>
-					
-					<div class="row-c">
-						<p class="row-text2">Select</p>
-						<object data="assets/request_a_demo/row/row-mingcute.svg" class="row-mingcute" type="image/svg+xml"></object>
-					</div>
+				<div class="input-group input-group-right">
+					<p class="text-b input-group-text">Sector</p>
+					<input class="input-group-input input-white" name="sector" placeholder="Enter Sector" />
 				</div>
 			</div>
 			
 			<div class="our-work-col1">
-				<div class="our-work-col-top">
-					<p class="our-work-text-preferred-contact">Preferred Contact Method</p>
-					
-					<div class="row-c">
-						<p class="row-text2">Select</p>
-						<object data="assets/request_a_demo/row/row-mingcute.svg" class="row-mingcute" type="image/svg+xml"></object>
-					</div>
+				<div class="input-group input-group-left">
+					<p class="text-b input-group-text">Preferred Contact Method</p>
+					<input class="input-group-input input-white" name="contact_method" placeholder="Preferred Contact Method" />
 				</div>
-				
 				<div class="our-work-col2">
 					<p class="our-work-text-any-note">Any Note</p>
-					<textarea class="our-work-type-here input-white">Type here...</textarea>
+					<textarea name="note" class="our-work-type-here input-white" required></textarea>
 				</div>
 				
 				<div class="our-work-row-bottom1">
-					<object data="assets/request_a_demo/our-work-graphic.svg" class="our-work-graphic" type="image/svg+xml"></object>
+					<input type="checkbox" name="subscribe" class="our-work-checkbox">
 					<p class="our-work-text-yes-i-d-like">
 						Yes, I’d like to receive wellbeing insights & research from Sehatti.
 					</p>
 				</div>
 			</div>
 			
-			<button class="our-work-btn-cta hover-dark text-blue">Submit</button>
+			<button class="our-work-btn-cta hover-dark text-blue" style="margin-top: 20px;">Submit</button>
+			</form>
 		</div>
 	</div>
 	
