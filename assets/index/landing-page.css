@@ -646,7 +646,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 57px;
+  gap: 20px;
   flex-grow: 1;
   background-color: #fff;
   padding-bottom: 52px;
@@ -974,14 +974,30 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+    padding: 30px 15px;
+    border-radius: 20px;
   flex-grow: 1;
   --minContent: 369;
   --hSizing: FILL;
   --vSizing: HUG;
   --pConstraintHorizontal: MIN;
   --pConstraintVertical: MIN;
+    transition: all 0.4s ease;
+}
+.component-b:hover {
+  background-color: #caccd1;
+  transform: translateY(5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+.component-b .component-famicons {
+  transition: all 0.4s ease;
 }
 
+/* Darken only the hovered image */
+.component-b:hover .component-famicons {
+  filter: brightness(0.7);
+  transform: scale(1.1);
+}
 .component-famicons {
   width: 54px;
   flex-shrink: 0;
@@ -3309,4 +3325,86 @@ body {
 	.hero-title {
 	font-size: 25px;
 }
+}
+
+
+.ecosystem-card {
+  overflow: hidden;
+  transition: background-color 0.5s ease, transform 0.3s ease;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+}
+
+.ecosystem-card:hover {
+  background-color: #a78545;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Center body content initially --- */
+.ecosystem-card .card-body {
+  position: relative;
+  /* height: 200px; */
+  /* adjust to your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+.ecosystem-card:hover .card-body{
+  height: 200px;
+}
+/* --- Title style --- */
+.ecosystem-card .card-title {
+  font-weight: 500;
+  color: #1f2c4c;
+  transition: all 0.5s ease;
+  margin: 0;
+  position: relative;
+}
+
+/* --- Move title to top when hovered --- */
+.ecosystem-card:hover .card-title {
+  color: #fff;
+  transform: translateY(-70px);
+  /* moves title upward */
+}
+
+/* --- Text hidden initially --- */
+.ecosystem-card .card-text-on-hover {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}
+
+/* --- Text appears from below on hover --- */
+.ecosystem-card:hover .card-text-on-hover {
+  opacity: 1;
+  transform: translateY(0);
+  font-size: 20px;
+}
+
+.checkitems{
+   background-color: #F9FAFB;
+  color: #0C2E4B;
+  border-radius: 20px;
+  height: 123px;
+  overflow: hidden;
+  transition: 1s;
+}
+.checkitems:hover {
+  transform: scale(1.1);
+  background-color: #D3B47B;
+}
+.card-component-gg-check {
+  background-color: #fff;
+  border-radius: 50%;
 }
