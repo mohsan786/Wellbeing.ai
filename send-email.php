@@ -41,7 +41,7 @@ try {
 
     // Email
     $mail->setFrom('hello@sehatti.app', 'Sehatti');
-    $mail->addAddress('hello@sehatti.app');         
+    $mail->addAddress('info@myelevateacademy.com');         
     $mail->Subject = "New Message from Sehatti Website";
     $mail->Body = $body;
 

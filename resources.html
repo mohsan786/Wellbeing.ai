@@ -1054,7 +1054,11 @@
 					<img src="${thumbnail}" alt="${title}">
 					<div class="item-info">
 						<h3>${title}</h3>
-						<p>${description}</p>
+						<p style="display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;">${description}</p>
 					</div>
 				`;
 				gallery.appendChild(card);

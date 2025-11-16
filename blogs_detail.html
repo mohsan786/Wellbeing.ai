@@ -58,7 +58,11 @@
             const thumbnail = article.thumbnail_url;
 			herotext.innerHTML = `
 			<h1 class="hero-section-title" style="color: white;">${title}</h1>
-			<p class="hero-section-text">${description}</p>
+			<p class="hero-section-text" style="display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;">${description}</p>
 			`;
 
 			 heroSection.style.backgroundImage = `
