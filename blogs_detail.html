@@ -23,8 +23,8 @@
 		</div>
 	</div>
 	<div class="container">
-		<a href="resources.html" class="back-link">← Back to Articles</a>
-		<div id="article-detail">
+		<a href="resources.html" class="back-link-button">← Back to Articles</a>
+		<div id="article-detail" style="margin-top: 12px;">
 		</div>
 
 	</div>
@@ -57,12 +57,11 @@
             const description =  article.content.en.description.replace(/<[^>]+>/g, ''); 
             const thumbnail = article.thumbnail_url;
 			herotext.innerHTML = `
-			<h1 class="hero-section-title" style="color: white;">${title}</h1>
-			<p class="hero-section-text" style="display: -webkit-box;
-  -webkit-line-clamp: 2; /* number of lines to show */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;">${description}</p>
+			<h1 class="hero-section-title hero-title" style="color: white;">${title}</h1>
+			<p class="hero-section-text" style=" overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;">${description}</p>
 			`;
 
 			 heroSection.style.backgroundImage = `
@@ -74,8 +73,8 @@
 				heroSection.style.backgroundRepeat = "no-repeat";
             articleDetail.innerHTML = `
                 <img src="${thumbnail}" alt="${title}">
-                <h1>${title}</h1>
-                <div>${description}</div>
+                <h1 class="article-title">${title}</h1>
+                <div style="text-align: justify">${description}</div>
             `;
         } catch (error) {
             console.error("Error fetching article:", error);

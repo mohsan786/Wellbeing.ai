@@ -981,7 +981,7 @@ body {
 }
 
 .hero-section-col-top {
-	height: 216px;
+	/* height: 216px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -4233,4 +4233,29 @@ body {
 .our-commitments-icon1{
 	display: none;
 }
+}
+
+@media screen and (max-width:430px) {
+	.hero-title {
+	font-size: 25px;
+}
+	.article-title {
+	font-size: 25px;
+}
+}
+
+.back-link-button {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #d3b47b;
+    color: #0c2e4b;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid #d3b47b;
+	font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+}
+.back-link-button:hover {
+    background: #d3b47b;
+    color: #0c2e4b;
 }
